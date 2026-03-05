@@ -1,0 +1,33 @@
+
+-------------
+| Arguments |
+-------------
+Input file: merged_codon_alns.fas (format: fasta)
+Output file: fish178_struct_trimmed_codon_aln.fas (format: fasta)
+Sequence type: Nucleotides
+Gaps threshold: 0.01
+Gap characters: ['-', '?', '*', 'X', 'x', 'N', 'n']
+Trimming mode: gappy
+Create complementary output: False
+Process as codons: True
+Trim ends only: False
+Create log file: False
+
+
+------------------------
+| Writing output files |
+------------------------
+Trimmed alignment: fish178_struct_trimmed_codon_aln.fas
+Complement file: False
+Log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Original length: 16917759
+Number of sites kept: 49737
+Number of sites trimmed: 16868022
+Percentage of alignment trimmed: 99.706%
+
+Execution time: 442.525s

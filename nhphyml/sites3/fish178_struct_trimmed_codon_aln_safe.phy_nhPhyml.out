@@ -1,0 +1,23 @@
+
+- nhPhyML v0.1 -
+
+. Sequence file : [fish178_struct_trimmed_codon_aln_safe.phy]
+
+. Initial tree : [user tree (../data/rooted_corefu_iqtree_nuc_sites3_safe.nwk)]
+
+. Number of taxons : 178
+
+
+. Likelihood : loglk = -1538623.00337
+
+. Discrete gamma model : Yes
+  - Number of categories : 4
+  - Gamma shape parameter : 1.822
+
+Transition/transversion ratio : 4.880613
+Limited set of 10 equilibrium frequencies
+. Time used 5h5m0s
+. -> 18300 seconds
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
