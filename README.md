@@ -110,3 +110,27 @@ nhphyml/scripts/remap_ids.py -t <nhphyml_output.tree> -m nhphyml/data/id_mapping
 Use the `-k`/`--keep-gc` flag to retain the per-leaf GC-content values annotated by nhPhyml alongside the restored names.
 
 ## Results
+
+### G+C content visualization via Newick trees
+
+Since nhPhyML uses a non-stationary and non-homogeneous model, the G+C content is not constant across the tree. These two files help you visualize the two different ways the model describes G+C composition:
+
+`fish178_nhphyml_*_eq*.nwk`
+
+    * **What it displays:** The **equilibrium G+C content** for each branch.
+    * **Meaning:** This represents the G+C content towards which the sequence would eventually evolve if the evolutionary process on that specific branch continued indefinitely. In a non-homogeneous model, each branch can have its own "target" equilibrium frequency.
+    * **Location:** The values are usually displayed in the position where bootstrap supports are typically found.
+
+`fish178_nhphyml_*_gc*.nwk`
+
+    * **What it displays:** The **actual estimated G+C content** at each internal node.
+    * **Meaning:** This is the inferred G+C composition of the ancestral sequence at that specific point in time (at that node). It is the result of the evolutionary process moving from the root toward the tips.
+    * **Note:** This file typically does not include the G+C content of the root node. To find the estimated G+C content of the very first ancestor (the root), you should check the second line of the `.lk` (likelihood) output file.
+
+The Newick files are generated for both the sites 1+2 and site 3 analyses, allowing you to compare how G+C content varies across the tree for different codon positions.
+
+### Comparing topologies using tanglegrams
+
+We use tanglegrams to visually compare tree topologies:
+
+- `nhphyml/sites3/tanglegrams/corefu_prot_vs_nhphyml_sites3.pdf` - a comparison of the tree inferred by nhPhyml on codon site 3 with the tree inferred by IQ-TREE on the corresponding protein alignment (from the same dataset). It is apperent from the plot that the toplogies are very similar.
