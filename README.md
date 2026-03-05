@@ -85,7 +85,6 @@ Output files (under `nhphyml/sites12/`):
 - `*_nhPhyml.lk` — Log-likelihood of the fitted model
 - `*_nhPhyml.lnf` — Per-site log-likelihoods
 - `*_nhPhyml.compout` — Composition (GC-content) estimates per branch
-- `*_nhPhyml.distout` — Distance matrix output
 
 ### Site 3
 
@@ -115,13 +114,13 @@ Use the `-k`/`--keep-gc` flag to retain the per-leaf GC-content values annotated
 
 Since nhPhyML uses a non-stationary and non-homogeneous model, the G+C content is not constant across the tree. These two files help you visualize the two different ways the model describes G+C composition:
 
-`fish178_nhphyml_*_eq*.nwk`
+`fish178_nhphyml_sites*_eq*.nwk`
 
 - **What it displays:** The **equilibrium G+C content** for each branch.
 - **Meaning:** This represents the G+C content towards which the sequence would eventually evolve if the evolutionary process on that specific branch continued indefinitely. In a non-homogeneous model, each branch can have its own "target" equilibrium frequency.
 - **Location:** The values are usually displayed in the position where bootstrap supports are typically found.
 
-`fish178_nhphyml_*_gc*.nwk`
+`fish178_nhphyml_sites*_gc*.nwk`
 
 - **What it displays:** The **actual estimated G+C content** at each internal node.
 - **Meaning:** This is the inferred G+C composition of the ancestral sequence at that specific point in time (at that node). It is the result of the evolutionary process moving from the root toward the tips.
