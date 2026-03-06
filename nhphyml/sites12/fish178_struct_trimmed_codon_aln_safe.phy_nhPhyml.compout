@@ -1,0 +1,885 @@
+>Node 178, son of Node 178 by branch of length 0.150114
+0.313069
+0.200411
+0.233225
+0.253295
+>Node 179, son of Node 178 by branch of length 0.150114
+0.277304
+0.225112
+0.258452
+0.239132
+>Node 180, son of Node 179 by branch of length 0.211623
+0.265511
+0.239307
+0.259929
+0.235253
+>Node 181, son of Node 178 by branch of length 0.045369
+0.310293
+0.207167
+0.236616
+0.245924
+>Node 182, son of Node 181 by branch of length 0.042407
+0.310642
+0.204397
+0.235293
+0.249668
+>Node 183, son of Node 182 by branch of length 0.027414
+0.311318
+0.202284
+0.234727
+0.251671
+>Node 184, son of Node 189 by branch of length 0.027978
+0.312029
+0.200448
+0.232993
+0.254530
+>Node 185, son of Node 184 by branch of length 0.022167
+0.311007
+0.200664
+0.233658
+0.254671
+>Node 186, son of Node 184 by branch of length 0.002082
+0.311985
+0.200463
+0.233097
+0.254456
+>Node 187, son of Node 186 by branch of length 0.002934
+0.312095
+0.200630
+0.232930
+0.254345
+>Node 188, son of Node 187 by branch of length 0.016958
+0.311842
+0.200874
+0.232879
+0.254405
+>Node 189, son of Node 183 by branch of length 0.005346
+0.311377
+0.202387
+0.234458
+0.251778
+>Node 190, son of Node 189 by branch of length 0.001274
+0.311319
+0.202462
+0.234404
+0.251815
+>Node 191, son of Node 190 by branch of length 0.006650
+0.311423
+0.201794
+0.234505
+0.252278
+>Node 192, son of Node 191 by branch of length 0.004399
+0.311876
+0.201404
+0.233953
+0.252766
+>Node 193, son of Node 192 by branch of length 0.015596
+0.311568
+0.201074
+0.234186
+0.253172
+>Node 194, son of Node 192 by branch of length 0.005945
+0.311788
+0.201250
+0.233880
+0.253082
+>Node 195, son of Node 194 by branch of length 0.004636
+0.311123
+0.201598
+0.233989
+0.253290
+>Node 196, son of Node 194 by branch of length 0.009032
+0.311691
+0.200654
+0.233905
+0.253750
+>Node 197, son of Node 181 by branch of length 0.018823
+0.311292
+0.206875
+0.236311
+0.245522
+>Node 198, son of Node 197 by branch of length 0.014847
+0.312753
+0.203600
+0.234693
+0.248954
+>Node 199, son of Node 197 by branch of length 0.033915
+0.309668
+0.208898
+0.237374
+0.244060
+>Node 200, son of Node 199 by branch of length 0.008369
+0.308742
+0.209883
+0.238399
+0.242975
+>Node 201, son of Node 200 by branch of length 0.025811
+0.304668
+0.213598
+0.241068
+0.240666
+>Node 202, son of Node 201 by branch of length 0.007501
+0.305091
+0.212295
+0.240480
+0.242135
+>Node 203, son of Node 201 by branch of length 0.032584
+0.301227
+0.217447
+0.243200
+0.238126
+>Node 204, son of Node 203 by branch of length 0.006081
+0.300156
+0.218674
+0.243837
+0.237332
+>Node 205, son of Node 204 by branch of length 0.012983
+0.298657
+0.218956
+0.244627
+0.237761
+>Node 206, son of Node 205 by branch of length 0.026885
+0.296550
+0.219085
+0.245423
+0.238941
+>Node 207, son of Node 204 by branch of length 0.022291
+0.298607
+0.220130
+0.245026
+0.236237
+>Node 208, son of Node 207 by branch of length 0.009767
+0.298782
+0.219647
+0.244787
+0.236784
+>Node 209, son of Node 208 by branch of length 0.009920
+0.298605
+0.219815
+0.244410
+0.237170
+>Node 210, son of Node 209 by branch of length 0.034054
+0.298643
+0.218408
+0.243433
+0.239516
+>Node 211, son of Node 210 by branch of length 0.005889
+0.298584
+0.217358
+0.243360
+0.240698
+>Node 212, son of Node 211 by branch of length 0.013323
+0.297721
+0.215975
+0.243531
+0.242774
+>Node 213, son of Node 208 by branch of length 0.010634
+0.299975
+0.217838
+0.244134
+0.238053
+>Node 214, son of Node 213 by branch of length 0.012415
+0.300637
+0.216580
+0.243802
+0.238982
+>Node 215, son of Node 214 by branch of length 0.014626
+0.299180
+0.215866
+0.244750
+0.240204
+>Node 216, son of Node 215 by branch of length 0.004021
+0.299269
+0.215958
+0.244510
+0.240263
+>Node 217, son of Node 215 by branch of length 0.009192
+0.300024
+0.213910
+0.244104
+0.241963
+>Node 218, son of Node 219 by branch of length 0.008859
+0.298581
+0.213893
+0.245145
+0.242381
+>Node 219, son of Node 217 by branch of length 0.005263
+0.299379
+0.214025
+0.244718
+0.241878
+>Node 220, son of Node 216 by branch of length 0.014235
+0.299917
+0.215435
+0.243991
+0.240657
+>Node 221, son of Node 220 by branch of length 0.021266
+0.299699
+0.213819
+0.244064
+0.242418
+>Node 222, son of Node 221 by branch of length 0.002428
+0.299560
+0.213653
+0.244238
+0.242549
+>Node 223, son of Node 222 by branch of length 0.001867
+0.299540
+0.213511
+0.244381
+0.242568
+>Node 224, son of Node 214 by branch of length 0.024767
+0.301473
+0.213358
+0.242335
+0.242834
+>Node 225, son of Node 224 by branch of length 0.009903
+0.301025
+0.213122
+0.242252
+0.243601
+>Node 226, son of Node 225 by branch of length 0.002967
+0.300938
+0.212765
+0.242274
+0.244023
+>Node 227, son of Node 226 by branch of length 0.006407
+0.301183
+0.212079
+0.241935
+0.244803
+>Node 228, son of Node 226 by branch of length 0.006304
+0.301219
+0.211771
+0.242053
+0.244957
+>Node 229, son of Node 228 by branch of length 0.003902
+0.301146
+0.211834
+0.241850
+0.245170
+>Node 230, son of Node 228 by branch of length 0.008283
+0.300994
+0.211338
+0.241748
+0.245920
+>Node 231, son of Node 230 by branch of length 0.000733
+0.300865
+0.211491
+0.241732
+0.245911
+>Node 232, son of Node 230 by branch of length 0.001855
+0.301121
+0.211188
+0.241442
+0.246248
+>Node 233, son of Node 232 by branch of length 0.000310
+0.301126
+0.211100
+0.241463
+0.246312
+>Node 234, son of Node 233 by branch of length 0.000109
+0.301128
+0.211131
+0.241463
+0.246278
+>Node 235, son of Node 234 by branch of length 0.000365
+0.301162
+0.211101
+0.241340
+0.246398
+>Node 236, son of Node 207 by branch of length 0.019494
+0.298286
+0.220032
+0.245523
+0.236159
+>Node 237, son of Node 236 by branch of length 0.004815
+0.298213
+0.219766
+0.245140
+0.236881
+>Node 238, son of Node 237 by branch of length 0.023525
+0.297277
+0.218307
+0.245339
+0.239078
+>Node 239, son of Node 237 by branch of length 0.022259
+0.298394
+0.218363
+0.244870
+0.238374
+>Node 240, son of Node 239 by branch of length 0.010905
+0.298490
+0.216637
+0.244548
+0.240325
+>Node 241, son of Node 240 by branch of length 0.006641
+0.298840
+0.216090
+0.243971
+0.241099
+>Node 242, son of Node 236 by branch of length 0.003506
+0.298745
+0.219425
+0.245284
+0.236546
+>Node 243, son of Node 242 by branch of length 0.012048
+0.297814
+0.219024
+0.245816
+0.237346
+>Node 244, son of Node 243 by branch of length 0.034740
+0.297407
+0.216378
+0.245896
+0.240319
+>Node 245, son of Node 242 by branch of length 0.007771
+0.299759
+0.218303
+0.244832
+0.237106
+>Node 246, son of Node 245 by branch of length 0.009705
+0.300365
+0.217608
+0.244245
+0.237783
+>Node 247, son of Node 246 by branch of length 0.005742
+0.300378
+0.216875
+0.244306
+0.238440
+>Node 248, son of Node 247 by branch of length 0.034199
+0.299956
+0.215534
+0.243683
+0.240827
+>Node 249, son of Node 248 by branch of length 0.002494
+0.300141
+0.214992
+0.243779
+0.241088
+>Node 250, son of Node 249 by branch of length 0.009303
+0.299374
+0.214957
+0.244417
+0.241252
+>Node 251, son of Node 249 by branch of length 0.013496
+0.298757
+0.215345
+0.244111
+0.241788
+>Node 252, son of Node 251 by branch of length 0.007525
+0.298518
+0.215227
+0.244416
+0.241839
+>Node 253, son of Node 247 by branch of length 0.004993
+0.300919
+0.216108
+0.243836
+0.239137
+>Node 254, son of Node 260 by branch of length 0.002477
+0.300101
+0.216689
+0.244412
+0.238799
+>Node 255, son of Node 254 by branch of length 0.009021
+0.298612
+0.218540
+0.244927
+0.237921
+>Node 256, son of Node 255 by branch of length 0.032729
+0.294341
+0.221148
+0.246839
+0.237672
+>Node 257, son of Node 256 by branch of length 0.019741
+0.291304
+0.223158
+0.247221
+0.238318
+>Node 258, son of Node 257 by branch of length 0.004854
+0.291440
+0.222592
+0.246980
+0.238987
+>Node 259, son of Node 253 by branch of length 0.001229
+0.300672
+0.216280
+0.243963
+0.239085
+>Node 260, son of Node 259 by branch of length 0.002438
+0.300817
+0.216005
+0.244114
+0.239064
+>Node 261, son of Node 260 by branch of length 0.015377
+0.302036
+0.213422
+0.242838
+0.241704
+>Node 262, son of Node 253 by branch of length 0.004028
+0.301380
+0.215262
+0.243397
+0.239960
+>Node 263, son of Node 262 by branch of length 0.002094
+0.301519
+0.214829
+0.243395
+0.240257
+>Node 264, son of Node 263 by branch of length 0.002452
+0.301333
+0.214848
+0.243487
+0.240332
+>Node 265, son of Node 263 by branch of length 0.009613
+0.300299
+0.215650
+0.243934
+0.240117
+>Node 266, son of Node 264 by branch of length 0.010103
+0.301504
+0.214092
+0.243405
+0.241000
+>Node 267, son of Node 266 by branch of length 0.005555
+0.301857
+0.213932
+0.243404
+0.240807
+>Node 268, son of Node 276 by branch of length 0.001386
+0.301551
+0.214869
+0.243628
+0.239953
+>Node 269, son of Node 268 by branch of length 0.007973
+0.301394
+0.214612
+0.243378
+0.240615
+>Node 270, son of Node 268 by branch of length 0.009597
+0.301302
+0.215459
+0.243551
+0.239689
+>Node 271, son of Node 269 by branch of length 0.036382
+0.299796
+0.215071
+0.243004
+0.242129
+>Node 272, son of Node 270 by branch of length 0.007278
+0.300717
+0.215909
+0.243883
+0.239491
+>Node 273, son of Node 272 by branch of length 0.058627
+0.297890
+0.213639
+0.244307
+0.244164
+>Node 274, son of Node 272 by branch of length 0.038195
+0.299739
+0.215150
+0.243013
+0.242098
+>Node 275, son of Node 267 by branch of length 0.002858
+0.301699
+0.213824
+0.243620
+0.240857
+>Node 276, son of Node 277 by branch of length 0.002006
+0.301532
+0.214535
+0.243617
+0.240316
+>Node 277, son of Node 267 by branch of length 0.001137
+0.301960
+0.213819
+0.243323
+0.240898
+>Node 278, son of Node 296 by branch of length 0.004169
+0.302071
+0.213376
+0.243142
+0.241410
+>Node 279, son of Node 280 by branch of length 0.001741
+0.302287
+0.213209
+0.242939
+0.241565
+>Node 280, son of Node 278 by branch of length 0.000821
+0.302139
+0.213364
+0.243114
+0.241383
+>Node 281, son of Node 280 by branch of length 0.014265
+0.301073
+0.215372
+0.243400
+0.240155
+>Node 282, son of Node 281 by branch of length 0.016170
+0.300039
+0.215928
+0.243359
+0.240674
+>Node 283, son of Node 282 by branch of length 0.007416
+0.298715
+0.216541
+0.243571
+0.241173
+>Node 284, son of Node 278 by branch of length 0.001315
+0.302225
+0.213254
+0.243067
+0.241454
+>Node 285, son of Node 284 by branch of length 0.003274
+0.302463
+0.212821
+0.242911
+0.241805
+>Node 286, son of Node 285 by branch of length 0.010697
+0.302866
+0.212136
+0.242934
+0.242063
+>Node 287, son of Node 286 by branch of length 0.014186
+0.302894
+0.211282
+0.242243
+0.243581
+>Node 288, son of Node 287 by branch of length 0.005576
+0.303028
+0.211516
+0.242061
+0.243395
+>Node 289, son of Node 284 by branch of length 0.005248
+0.302479
+0.213022
+0.242987
+0.241511
+>Node 290, son of Node 289 by branch of length 0.001771
+0.302618
+0.212835
+0.242789
+0.241758
+>Node 291, son of Node 289 by branch of length 0.023955
+0.302256
+0.213579
+0.242744
+0.241421
+>Node 292, son of Node 291 by branch of length 0.001855
+0.302274
+0.213489
+0.242649
+0.241587
+>Node 293, son of Node 290 by branch of length 0.001969
+0.302670
+0.212682
+0.242756
+0.241892
+>Node 294, son of Node 293 by branch of length 0.010025
+0.303331
+0.211611
+0.242363
+0.242695
+>Node 295, son of Node 293 by branch of length 0.007643
+0.302539
+0.212635
+0.242379
+0.242447
+>Node 296, son of Node 297 by branch of length 0.001121
+0.301759
+0.213672
+0.243422
+0.241147
+>Node 297, son of Node 277 by branch of length 0.001347
+0.301761
+0.213682
+0.243489
+0.241068
+>Node 298, son of Node 296 by branch of length 0.001179
+0.301959
+0.213492
+0.243262
+0.241287
+>Node 299, son of Node 298 by branch of length 0.002076
+0.302354
+0.213295
+0.242832
+0.241520
+>Node 300, son of Node 299 by branch of length 0.006904
+0.302615
+0.213459
+0.242173
+0.241753
+>Node 301, son of Node 298 by branch of length 0.002180
+0.302100
+0.213261
+0.242971
+0.241669
+>Node 302, son of Node 301 by branch of length 0.001350
+0.302226
+0.213252
+0.242840
+0.241682
+>Node 303, son of Node 302 by branch of length 0.002927
+0.302039
+0.213529
+0.242867
+0.241566
+>Node 304, son of Node 302 by branch of length 0.003566
+0.301860
+0.213461
+0.243261
+0.241418
+>Node 305, son of Node 304 by branch of length 0.022446
+0.302131
+0.212037
+0.243373
+0.242458
+>Node 306, son of Node 304 by branch of length 0.003293
+0.301578
+0.213705
+0.243345
+0.241372
+>Node 307, son of Node 306 by branch of length 0.017706
+0.301597
+0.213299
+0.242701
+0.242404
+>Node 308, son of Node 307 by branch of length 0.001282
+0.301603
+0.213504
+0.242760
+0.242133
+>Node 309, son of Node 308 by branch of length 0.004592
+0.301105
+0.213369
+0.242934
+0.242592
+>Node 310, son of Node 309 by branch of length 0.003532
+0.300969
+0.213658
+0.243007
+0.242366
+>Node 311, son of Node 297 by branch of length 0.002868
+0.302093
+0.213068
+0.243347
+0.241492
+>Node 312, son of Node 275 by branch of length 0.005174
+0.301856
+0.213164
+0.243528
+0.241452
+>Node 313, son of Node 312 by branch of length 0.002073
+0.301890
+0.213176
+0.243446
+0.241488
+>Node 314, son of Node 313 by branch of length 0.010969
+0.302948
+0.212072
+0.242972
+0.242008
+>Node 315, son of Node 313 by branch of length 0.005808
+0.302536
+0.212378
+0.243058
+0.242027
+>Node 316, son of Node 315 by branch of length 0.000233
+0.302580
+0.212258
+0.243050
+0.242112
+>Node 317, son of Node 311 by branch of length 0.001145
+0.302166
+0.213132
+0.243212
+0.241489
+>Node 318, son of Node 311 by branch of length 0.003110
+0.302007
+0.212990
+0.243443
+0.241560
+>Node 319, son of Node 318 by branch of length 0.014043
+0.302460
+0.212475
+0.243004
+0.242061
+>Node 320, son of Node 318 by branch of length 0.002033
+0.302055
+0.212891
+0.243307
+0.241748
+>Node 321, son of Node 320 by branch of length 0.001483
+0.302137
+0.212787
+0.243273
+0.241803
+>Node 322, son of Node 321 by branch of length 0.006379
+0.302333
+0.212379
+0.242878
+0.242410
+>Node 323, son of Node 321 by branch of length 0.001055
+0.302297
+0.212826
+0.243094
+0.241783
+>Node 324, son of Node 325 by branch of length 0.016726
+0.302019
+0.212869
+0.243345
+0.241768
+>Node 325, son of Node 323 by branch of length 0.001582
+0.302310
+0.212858
+0.243090
+0.241742
+>Node 326, son of Node 323 by branch of length 0.007736
+0.301375
+0.212669
+0.243643
+0.242312
+>Node 327, son of Node 329 by branch of length 0.017203
+0.298249
+0.214136
+0.245420
+0.242194
+>Node 328, son of Node 327 by branch of length 0.001356
+0.298322
+0.214225
+0.245297
+0.242155
+>Node 329, son of Node 326 by branch of length 0.001614
+0.301151
+0.212621
+0.243784
+0.242444
+>Node 330, son of Node 329 by branch of length 0.004885
+0.300535
+0.213040
+0.244303
+0.242121
+>Node 331, son of Node 326 by branch of length 0.007623
+0.300346
+0.213185
+0.244350
+0.242118
+>Node 332, son of Node 331 by branch of length 0.004138
+0.299725
+0.213624
+0.244651
+0.242000
+>Node 333, son of Node 317 by branch of length 0.000621
+0.302108
+0.213051
+0.243181
+0.241660
+>Node 334, son of Node 341 by branch of length 0.002576
+0.301911
+0.213666
+0.243427
+0.240996
+>Node 335, son of Node 334 by branch of length 0.030298
+0.299505
+0.213258
+0.245199
+0.242039
+>Node 336, son of Node 334 by branch of length 0.007572
+0.302787
+0.213296
+0.243266
+0.240650
+>Node 337, son of Node 336 by branch of length 0.003517
+0.302873
+0.213279
+0.243235
+0.240614
+>Node 338, son of Node 337 by branch of length 0.010874
+0.303292
+0.212191
+0.242801
+0.241716
+>Node 339, son of Node 338 by branch of length 0.006419
+0.302328
+0.212912
+0.243187
+0.241572
+>Node 340, son of Node 338 by branch of length 0.003156
+0.303197
+0.211856
+0.242728
+0.242218
+>Node 341, son of Node 317 by branch of length 0.000951
+0.302081
+0.213225
+0.243327
+0.241367
+>Node 342, son of Node 333 by branch of length 0.001487
+0.302260
+0.212818
+0.243168
+0.241754
+>Node 343, son of Node 341 by branch of length 0.003677
+0.301811
+0.213268
+0.243428
+0.241493
+>Node 344, son of Node 333 by branch of length 0.003255
+0.302255
+0.213034
+0.242980
+0.241732
+>Node 345, son of Node 342 by branch of length 0.000945
+0.302124
+0.212984
+0.243291
+0.241601
+>Node 346, son of Node 350 by branch of length 0.000932
+0.302374
+0.212615
+0.243112
+0.241898
+>Node 347, son of Node 346 by branch of length 0.005068
+0.301973
+0.212716
+0.242969
+0.242343
+>Node 348, son of Node 350 by branch of length 0.003521
+0.301868
+0.213422
+0.243229
+0.241481
+>Node 349, son of Node 348 by branch of length 0.008141
+0.302056
+0.213749
+0.242996
+0.241198
+>Node 350, son of Node 342 by branch of length 0.000868
+0.302241
+0.212758
+0.243192
+0.241809
+>Node 351, son of Node 345 by branch of length 0.002839
+0.302061
+0.213370
+0.243267
+0.241302
+>Node 352, son of Node 351 by branch of length 0.008515
+0.302417
+0.212909
+0.242949
+0.241725
+>Node 353, son of Node 352 by branch of length 0.003957
+0.302215
+0.213018
+0.243121
+0.241646
+>Node 354, son of Node 353 by branch of length 0.003388
+0.302322
+0.213183
+0.243164
+0.241330
