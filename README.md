@@ -132,4 +132,8 @@ The Newick files are generated for both the sites 1+2 and site 3 analyses, allow
 
 We use tanglegrams to visually compare tree topologies:
 
-- `nhphyml/sites3/tanglegrams/corefu_prot_vs_nhphyml_sites3.pdf` - a comparison of the tree inferred by nhPhyml on codon site 3 with the tree inferred by IQ-TREE on the corresponding protein alignment (from the same dataset). It is apperent from the plot that the toplogies are very similar.
+- `nhphyml/sites3/tanglegrams/corefu_prot_vs_nhphyml_sites3.pdf` - a comparison of the tree inferred by nhPhyml on codon site 3 (right) with the tree inferred by IQ-TREE on the corresponding protein alignment (left). It is apparent from the plot that the toplogies are very similar.
+
+- `nhphyml/sites3/tanglegrams/nhphyml_sites3_vs_nhphyml_sites12.pdf` - a comparison of the tree inferred by nhPhyml on codon site 3 (left) with the tree inferred by nhPhyml on codon sites 1+2 (right).
+
+- `nhphyml/sites12/tanglegrams/corefu_prot_vs_nhphyml_sites12.pdf` - a comparison of the tree inferred by nhPhyml on codon sites 1+2 (right) with the tree inferred by IQ-TREE on the corresponding protein alignment (left).
