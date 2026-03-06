@@ -1,0 +1,79 @@
+#!/usr/bin/env Rscript
+
+# ---------------------------------------------------------
+# Load libraries (Assumes they are already installed)
+# ---------------------------------------------------------
+suppressPackageStartupMessages(library(ape))
+suppressPackageStartupMessages(library(phytools))
+
+# ---------------------------------------------------------
+# Parse command-line arguments
+# ---------------------------------------------------------
+args <- commandArgs(trailingOnly = TRUE)
+
+# Check for flags
+ignore_branch_lengths <- "--ignore-bl" %in% args
+args <- args[args != "--ignore-bl"]
+
+# Enforce required arguments
+if (length(args) < 2) {
+  cat("Error: Missing input files.\n")
+  cat("Usage: Rscript tanglegram.R <tree1.nwk> <tree2.nwk> [output_file.pdf] [--ignore-bl]\n")
+  quit(status = 1)
+}
+
+tree1_file <- args[1]
+tree2_file <- args[2]
+
+# Allow an optional 3rd argument for the output filename, otherwise use a default
+output_file <- ifelse(length(args) >= 3, args[3], "tanglegram_output.pdf")
+
+# ---------------------------------------------------------
+# Read the trees
+# ---------------------------------------------------------
+# tryCatch ensures the script gives a readable error if a file is invalid/missing
+tree1 <- tryCatch(
+  read.tree(tree1_file), 
+  error = function(e) { stop(paste("Failed to read", tree1_file, "- Check file path and Newick format.")) }
+)
+
+tree2 <- tryCatch(
+  read.tree(tree2_file), 
+  error = function(e) { stop(paste("Failed to read", tree2_file, "- Check file path and Newick format.")) }
+)
+
+# ---------------------------------------------------------
+# Generate and plot the tanglegram
+# ---------------------------------------------------------
+if (ignore_branch_lengths) {
+  tree1$edge.length <- NULL
+  tree2$edge.length <- NULL
+}
+
+cat("Untangling trees and generating cophylo plot...\n")
+untangled_trees <- cophylo(tree1, tree2, use.edge.length = !ignore_branch_lengths, print = FALSE)
+
+# Calculate optimal height based on number of tips
+n_tips_tree1 <- Ntip(tree1)
+n_tips_tree2 <- Ntip(tree2)
+max_tips <- max(n_tips_tree1, n_tips_tree2)
+
+# Allow 0.15 inches per tip, with a minimum height of 6
+pdf_height <- max(6, max_tips * 0.15)
+
+# Open the PDF device
+pdf(file = output_file, width = 10, height = pdf_height)
+
+# Plot with clean, publication-ready aesthetics
+plot(untangled_trees, 
+     link.type = "curved",
+     link.lwd = 0.95,
+     link.lty = "solid",
+     link.col = "steelblue",
+     fsize = 0.6,   # Slightly smaller font to accommodate larger trees
+     lwd = 0.95)
+
+# Suppress the "null device" print when closing dev.off()
+invisible(dev.off())
+
+cat("Success! Cophylo plot saved as:", output_file, "\n")
