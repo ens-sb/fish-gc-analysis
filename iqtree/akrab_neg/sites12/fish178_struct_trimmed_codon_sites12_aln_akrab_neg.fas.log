@@ -1,0 +1,1908 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built May  5 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    hl-codon-38-02.ebi.ac.uk (AVX512, FMA3, 376 GB RAM)
+Command: iqtree3 -s fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas -mset 12.12,6.7a,3.3a -m MFP --redo --merit AICc --nonrev-model -safe
+Seed:    111438 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar  9 15:32:51 2026
+Kernel:  Safe AVX+FMA - 1 threads (1 CPU cores detected)
+
+Reading alignment file fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas ... Fasta format detected
+Reading fasta file: done in 0.00600991 secs using 76.74% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0164483 secs using 31.49% CPU
+Alignment has 13 sequences with 33158 columns, 1048 distinct patterns
+1246 parsimony-informative, 2266 singleton sites, 29646 constant sites
+                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.418e-05 secs
+   1  GCA_038024135.1_Cyprinella_venusta             1.94%    passed     97.37%
+   2  GCA_048301585.1_Rhinogobio_nasutus             0.00%    passed     99.54%
+   3  GCA_936440315.1_Barbus_barbus                  0.00%    passed     99.58%
+   4  GCA_944039275.1_Danio_rerio                    0.00%    passed     99.05%
+   5  GCA_947034865.1_Barbatula_barbatula            0.69%    passed     72.08%
+   6  GCA_949152265.1_Phoxinus_phoxinus              3.32%    passed     89.95%
+   7  GCA_949319135.1_Squalius_cephalus              0.00%    passed     99.81%
+   8  GCA_949357685.1_Gobio_gobio                    0.00%    passed     96.60%
+   9  GCA_951802725.1_Rutilus_rutilus                0.00%    passed     99.90%
+  10  GCA_963993115.1_Abramis_brama                  0.00%    passed     98.98%
+  11  GCA_964197995.1_Scardinius_erythrophthalmus    0.00%    passed     99.85%
+  12  GCA_965113295.1_Leuciscus_leuciscus            0.00%    passed     99.93%
+  13  GCF_963082965.1_Carassius_carassius            0.00%    passed     98.83%
+****  TOTAL                                          0.46%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 4.52292e-05 secs
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Perform fast likelihood tree search using 12.12+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.0510949 secs using 94.74% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -75722.792
+Optimal log-likelihood: -75722.094
+Model parameters: 0.661,0.109,-0.024,-0.079,-0.086,0.517,-0.146,0.428,0.120,0.268,-0.205
+Proportion of invariable sites: 0.452
+Gamma shape alpha: 0.230
+Parameters optimization took 1 rounds (0.046 sec)
+Time for fast ML tree search: 0.535 seconds
+
+NOTE: ModelFinder requires 4 MB RAM!
+ModelFinder will test up to 132 DNA models (sample size: 33158 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  12.12         77411.263    35  154892.525   154892.601   155186.842
+  2  12.12+I       75770.339    36  151612.678   151612.758   151915.403
+  3  12.12+G4      75874.430    36  151820.861   151820.941   152123.586
+  4  12.12+I+G4    75697.065    37  151468.131   151468.216   151779.265
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+  5  12.12+R2      75770.013    37  151614.027   151614.111   151925.161
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+  6  12.12+R3      75613.928    39  151305.856   151305.950   151633.809
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.500
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.250
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.125
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.062
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+  7  12.12+R4      75613.895    41  151309.790   151309.894   151654.561
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+ 14  12.12+I+R2    75770.036    38  151616.071   151616.161   151935.615
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+ 15  12.12+I+R3    75613.214    40  151306.428   151306.527   151642.790
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+ 16  12.12+I+R4    75612.771    42  151309.543   151309.652   151662.722
+ 28  12.12+R3      75613.928    39  151305.856   151305.950   151633.809
+ 29  12.12+R4      75613.895    41  151309.790   151309.894   151654.561
+ 37  12.12+I+R3    75613.214    40  151306.428   151306.527   151642.790
+ 38  12.12+I+R4    75612.771    42  151309.543   151309.652   151662.722
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+ 50  6.7a+R3       75753.551    33  151573.103   151573.171   151850.601
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.500
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.250
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.125
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.062
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.031
+ 51  6.7a+R4       75753.692    35  151577.384   151577.460   151871.700
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+ 59  6.7a+I+R3     75751.844    34  151571.687   151571.759   151857.594
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++I+R4 reinitialized from +I+R3 with factor 0.500
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+ 60  6.7a+I+R4     75751.923    36  151575.847   151575.927   151878.572
+ 72  6.7a+R3       75753.551    33  151573.103   151573.171   151850.601
+ 73  6.7a+R4       75753.692    35  151577.384   151577.460   151871.700
+ 81  6.7a+I+R3     75751.844    34  151571.687   151571.759   151857.594
+ 82  6.7a+I+R4     75751.923    36  151575.847   151575.927   151878.572
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+ 94  3.3a+R3       76023.528    30  152107.055   152107.111   152359.327
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.500
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.250
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.125
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.062
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
++R4 reinitialized from +R3 with factor 0.031
+ 95  3.3a+R4       76023.664    32  152111.327   152111.391   152380.416
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+103  3.3a+I+R3     76022.013    31  152106.026   152106.086   152366.706
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+104  3.3a+I+R4     76022.100    33  152110.200   152110.267   152387.698
+116  3.3a+R3       76023.528    30  152107.055   152107.112   152359.327
+117  3.3a+R4       76023.664    32  152111.327   152111.391   152380.416
+125  3.3a+I+R3     76022.013    31  152106.026   152106.086   152366.706
+126  3.3a+I+R4     76022.100    33  152110.200   152110.267   152387.698
+Akaike Information Criterion:           12.12+R3
+Corrected Akaike Information Criterion: 12.12+R3
+Bayesian Information Criterion:         12.12+R3
+Best-fit model: 12.12+R3 chosen according to AICc
+
+All model information printed to fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas.model.gz
+CPU time for ModelFinder: 10.642 seconds (0h:0m:10s)
+Wall-clock time for ModelFinder: 10.806 seconds (0h:0m:10s)
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -75614.745
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+2. Current log-likelihood: -75614.152
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+3. Current log-likelihood: -75613.973
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+4. Current log-likelihood: -75613.867
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+Optimal log-likelihood: -75613.795
+Model parameters: 0.692,0.132,-0.019,-0.181,-0.094,0.582,-0.162,0.525,0.130,0.274,-0.231
+Site proportion and rates:  (0.585,0.000) (0.374,1.169) (0.042,13.472)
+Parameters optimization took 4 rounds (0.132 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00233715 secs using 99.39% CPU
+Computing ML distances took 0.002458 sec (of wall-clock time) 0.002433 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 2.3325e-05 secs using 98.61% CPU
+Constructing RapidNJ tree: done in 0.000107765 secs using 64.96% CPU
+Computing RapidNJ tree took 0.000159 sec (of wall-clock time) 0.000125 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -75852.357
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.253 second
+Computing log-likelihood of 97 initial trees ... 0.675 seconds
+Current best score: -75613.795
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.0447709 secs using 99.52% CPU
+Estimate model parameters (epsilon = 0.100)
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+BETTER TREE FOUND at iteration 1: -75611.727
+Optimizing NNI: done in 0.0663318 secs using 99.5% CPU
+Optimizing NNI: done in 0.0719134 secs using 99.48% CPU
+Optimizing NNI: done in 0.0665107 secs using 99.53% CPU
+Optimizing NNI: done in 0.0655568 secs using 96.51% CPU
+Optimizing NNI: done in 0.0624122 secs using 99.55% CPU
+Optimizing NNI: done in 0.0648352 secs using 99.52% CPU
+Optimizing NNI: done in 0.0512232 secs using 99.57% CPU
+Optimizing NNI: done in 0.0512334 secs using 99.54% CPU
+Optimizing NNI: done in 0.0621489 secs using 99.56% CPU
+Iteration 10 / LogL: -75615.225 / Time: 0h:0m:12s
+Optimizing NNI: done in 0.0818894 secs using 99.5% CPU
+Optimizing NNI: done in 0.0829854 secs using 99.54% CPU
+Optimizing NNI: done in 0.0817888 secs using 98.31% CPU
+Optimizing NNI: done in 0.0491272 secs using 97.5% CPU
+Optimizing NNI: done in 0.0531113 secs using 99.54% CPU
+Optimizing NNI: done in 0.0495663 secs using 99.5% CPU
+Optimizing NNI: done in 0.0612128 secs using 99.51% CPU
+Optimizing NNI: done in 0.0865229 secs using 99.52% CPU
+Optimizing NNI: done in 0.0920015 secs using 99.5% CPU
+Optimizing NNI: done in 0.083074 secs using 98.3% CPU
+Iteration 20 / LogL: -75615.219 / Time: 0h:0m:13s
+Finish initializing candidate tree set (4)
+Current best tree score: -75611.727 / CPU time: 2.340
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.0446953 secs using 99.47% CPU
+Optimizing NNI: done in 0.118112 secs using 99.5% CPU
+Optimizing NNI: done in 0.0707745 secs using 99.49% CPU
+Optimizing NNI: done in 0.10449 secs using 99.52% CPU
+Optimizing NNI: done in 0.0623267 secs using 97.93% CPU
+Optimizing NNI: done in 0.0692252 secs using 99.5% CPU
+Optimizing NNI: done in 0.0758586 secs using 99.5% CPU
+Optimizing NNI: done in 0.0552832 secs using 99.49% CPU
+Optimizing NNI: done in 0.0605531 secs using 99.51% CPU
+UPDATE BEST LOG-LIKELIHOOD: -75611.726
+Optimizing NNI: done in 0.0568456 secs using 97.73% CPU
+Iteration 30 / LogL: -75613.425 / Time: 0h:0m:14s (0h:0m:8s left)
+Optimizing NNI: done in 0.0735737 secs using 98.17% CPU
+Optimizing NNI: done in 0.101065 secs using 99.49% CPU
+Optimizing NNI: done in 0.0650236 secs using 98% CPU
+Optimizing NNI: done in 0.0783625 secs using 99.55% CPU
+Optimizing NNI: done in 0.0847417 secs using 98.34% CPU
+Optimizing NNI: done in 0.136679 secs using 98.8% CPU
+Optimizing NNI: done in 0.0676897 secs using 99.53% CPU
+UPDATE BEST LOG-LIKELIHOOD: -75611.721
+Optimizing NNI: done in 0.0487157 secs using 97.5% CPU
+Optimizing NNI: done in 0.0896814 secs using 99.54% CPU
+Optimizing NNI: done in 0.0797881 secs using 99.52% CPU
+Iteration 40 / LogL: -75613.308 / Time: 0h:0m:15s (0h:0m:6s left)
+Optimizing NNI: done in 0.0748137 secs using 99.54% CPU
+Optimizing NNI: done in 0.0806201 secs using 97.06% CPU
+Optimizing NNI: done in 0.0657724 secs using 99.52% CPU
+Optimizing NNI: done in 0.0973996 secs using 98.46% CPU
+Estimate model parameters (epsilon = 0.100)
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+UPDATE BEST LOG-LIKELIHOOD: -75611.681
+Optimizing NNI: done in 0.117792 secs using 99.51% CPU
+Optimizing NNI: done in 0.0410945 secs using 97.08% CPU
+Optimizing NNI: done in 0.101839 secs using 99.52% CPU
+Estimate model parameters (epsilon = 0.100)
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+UPDATE BEST LOG-LIKELIHOOD: -75611.654
+Optimizing NNI: done in 0.10748 secs using 98.62% CPU
+Optimizing NNI: done in 0.0556021 secs using 99.49% CPU
+Optimizing NNI: done in 0.132275 secs using 98.75% CPU
+Iteration 50 / LogL: -75613.393 / Time: 0h:0m:16s (0h:0m:5s left)
+Optimizing NNI: done in 0.0902143 secs using 98.4% CPU
+Optimizing NNI: done in 0.0505219 secs using 97.56% CPU
+UPDATE BEST LOG-LIKELIHOOD: -75611.654
+Optimizing NNI: done in 0.106688 secs using 99.5% CPU
+Optimizing NNI: done in 0.0893041 secs using 98.38% CPU
+Optimizing NNI: done in 0.0943874 secs using 99.51% CPU
+Optimizing NNI: done in 0.0812894 secs using 98.3% CPU
+Optimizing NNI: done in 0.0583537 secs using 96.12% CPU
+Optimizing NNI: done in 0.0625187 secs using 97.87% CPU
+Optimizing NNI: done in 0.0557701 secs using 99.5% CPU
+Optimizing NNI: done in 0.0523109 secs using 99.53% CPU
+Iteration 60 / LogL: -75615.379 / Time: 0h:0m:16s (0h:0m:4s left)
+Optimizing NNI: done in 0.0769669 secs using 99.52% CPU
+Optimizing NNI: done in 0.0648992 secs using 97.95% CPU
+Optimizing NNI: done in 0.0804467 secs using 99.52% CPU
+Optimizing NNI: done in 0.103995 secs using 98.56% CPU
+Optimizing NNI: done in 0.0797919 secs using 99.53% CPU
+Optimizing NNI: done in 0.0970837 secs using 98.53% CPU
+Optimizing NNI: done in 0.106627 secs using 99.49% CPU
+Optimizing NNI: done in 0.0682129 secs using 99.51% CPU
+Optimizing NNI: done in 0.0894036 secs using 99.52% CPU
+Optimizing NNI: done in 0.0818599 secs using 98.31% CPU
+Iteration 70 / LogL: -75613.387 / Time: 0h:0m:17s (0h:0m:3s left)
+Optimizing NNI: done in 0.13335 secs using 99.52% CPU
+Optimizing NNI: done in 0.0854932 secs using 99.49% CPU
+Optimizing NNI: done in 0.0960405 secs using 98.45% CPU
+Optimizing NNI: done in 0.0816422 secs using 97.48% CPU
+Optimizing NNI: done in 0.0804729 secs using 99.48% CPU
+Optimizing NNI: done in 0.0800834 secs using 99.51% CPU
+Optimizing NNI: done in 0.0791932 secs using 99.52% CPU
+Optimizing NNI: done in 0.11366 secs using 98.6% CPU
+Optimizing NNI: done in 0.144858 secs using 98.81% CPU
+Optimizing NNI: done in 0.0559959 secs using 97.72% CPU
+Iteration 80 / LogL: -75613.861 / Time: 0h:0m:18s (0h:0m:2s left)
+Optimizing NNI: done in 0.074098 secs using 98.12% CPU
+Optimizing NNI: done in 0.0543882 secs using 97.68% CPU
+Optimizing NNI: done in 0.110768 secs using 98.62% CPU
+Optimizing NNI: done in 0.0858152 secs using 99.53% CPU
+Optimizing NNI: done in 0.0840997 secs using 99.53% CPU
+Optimizing NNI: done in 0.0880197 secs using 97.28% CPU
+Optimizing NNI: done in 0.0495828 secs using 97.55% CPU
+Optimizing NNI: done in 0.0857033 secs using 99.53% CPU
+Optimizing NNI: done in 0.0437051 secs using 99.48% CPU
+Optimizing NNI: done in 0.0728663 secs using 99.45% CPU
+Iteration 90 / LogL: -75613.398 / Time: 0h:0m:19s (0h:0m:1s left)
+Optimizing NNI: done in 0.123272 secs using 98.68% CPU
+Optimizing NNI: done in 0.0499131 secs using 97.5% CPU
+Optimizing NNI: done in 0.132192 secs using 98.81% CPU
+Optimizing NNI: done in 0.0790886 secs using 99.53% CPU
+Optimizing NNI: done in 0.0773048 secs using 99.52% CPU
+Optimizing NNI: done in 0.067355 secs using 99.55% CPU
+Optimizing NNI: done in 0.0547447 secs using 97.68% CPU
+Optimizing NNI: done in 0.0786909 secs using 99.52% CPU
+Optimizing NNI: done in 0.0797022 secs using 99.54% CPU
+Optimizing NNI: done in 0.0926414 secs using 99.54% CPU
+Iteration 100 / LogL: -75633.041 / Time: 0h:0m:20s (0h:0m:0s left)
+Optimizing NNI: done in 0.137992 secs using 99.54% CPU
+Optimizing NNI: done in 0.111775 secs using 99.56% CPU
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -75611.654
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+WARNING: Numerical underflow for non-rev lh-branch Noname
+Optimal log-likelihood: -75611.648
+Model parameters: 0.692,0.132,-0.019,-0.181,-0.093,0.582,-0.162,0.525,0.130,0.274,-0.231
+Site proportion and rates:  (0.586,0.000) (0.373,1.164) (0.041,13.839)
+Parameters optimization took 1 rounds (0.022 sec)
+BEST SCORE FOUND : -75611.648
+Total tree length: 0.180
+
+Total number of iterations: 102
+CPU time used for tree search: 9.187 sec (0h:0m:9s)
+Wall-clock time used for tree search: 9.295 sec (0h:0m:9s)
+Total CPU time used: 20.237 sec (0h:0m:20s)
+Total wall-clock time used: 20.520 sec (0h:0m:20s)
+
+Analysis results written to: 
+  IQ-TREE report:                fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas.iqtree
+  Maximum-likelihood tree:       fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas.treefile
+  Likelihood distances:          fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas.mldist
+  Screen log file:               fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas.log
+
+Date and Time: Mon Mar  9 15:33:11 2026

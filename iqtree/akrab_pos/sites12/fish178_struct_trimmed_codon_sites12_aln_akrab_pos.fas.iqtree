@@ -1,0 +1,184 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: fish178_struct_trimmed_codon_sites12_aln_akrab_pos.fas
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 58552
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 6 sequences with 33158 nucleotide sites
+Number of constant sites: 30134 (= 90.88% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 30134 (= 90.88% of all sites)
+Number of parsimony informative sites: 1461
+Number of distinct site patterns: 448
+
+ModelFinder
+-----------
+
+Best-fit model according to AICc: 12.12+G4
+
+List of models sorted by AICc scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+12.12+G4         -66310.347  132664.693 +    0.224  132664.724 +    0.224  132849.692 +    0.329
+12.12+G4         -66310.347  132664.693 +    0.224  132664.724 +    0.224  132849.692 +    0.329
+12.12+I          -66311.018  132666.037 +    0.114  132666.067 +    0.114  132851.036 +    0.168
+12.12+I          -66311.018  132666.037 +    0.114  132666.067 +    0.114  132851.036 +    0.168
+12.12+I+G4       -66310.136  132666.271 +    0.102  132666.304 +    0.102  132859.679 -  0.00223
+12.12+I+G4       -66310.136  132666.271 +    0.102  132666.304 +    0.102  132859.679 -  0.00223
+12.12+R2         -66311.666  132669.332 -    0.022  132669.365 -    0.022  132862.740 - 0.000483
+12.12+R2         -66311.666  132669.332 -    0.022  132669.365 -    0.022  132862.740 - 0.000483
+12.12+I+R2       -66310.824  132669.648 -   0.0188  132669.684 -   0.0187  132871.465 - 6.16e-06
+12.12+I+R2       -66310.824  132669.648 -   0.0188  132669.684 -   0.0187  132871.465 - 6.16e-06
+12.12+R3         -66310.065  132670.131 -   0.0148  132670.170 -   0.0147  132880.357 - 7.22e-08
+12.12+R3         -66310.065  132670.131 -   0.0148  132670.170 -   0.0147  132880.357 - 7.22e-08
+12.12+I+R3       -66310.231  132672.462 -   0.0046  132672.504 -  0.00458  132891.097 - 3.36e-10
+12.12+I+R3       -66310.231  132672.462 -   0.0046  132672.504 -  0.00458  132891.097 - 3.36e-10
+6.7a+G4          -66439.735  132911.471 - 5.79e-55  132911.487 - 5.84e-55  133046.015 -  7.7e-44
+6.7a+G4          -66439.735  132911.471 - 5.79e-55  132911.487 - 5.84e-55  133046.015 -  7.7e-44
+6.7a+I           -66439.827  132911.654 - 5.29e-55  132911.670 - 5.33e-55  133046.198 - 7.02e-44
+6.7a+I           -66439.827  132911.654 - 5.29e-55  132911.670 - 5.33e-55  133046.198 - 7.02e-44
+6.7a+I+G4        -66439.866  132913.732 - 1.87e-55  132913.750 - 1.88e-55  133056.686 - 3.71e-46
+6.7a+I+G4        -66439.866  132913.732 - 1.87e-55  132913.750 - 1.88e-55  133056.686 - 3.71e-46
+6.7a+R2          -66440.858  132915.717 - 6.93e-56  132915.735 - 6.98e-56  133058.671 - 1.37e-46
+6.7a+R2          -66440.858  132915.717 - 6.93e-56  132915.735 - 6.98e-56  133058.671 - 1.37e-46
+6.7a+I+R2        -66439.868  132915.735 - 6.87e-56  132915.756 - 6.91e-56  133067.098 - 2.03e-48
+6.7a+I+R2        -66439.868  132915.735 - 6.87e-56  132915.756 - 6.91e-56  133067.098 - 2.03e-48
+6.7a+R3          -66439.884  132917.767 - 2.49e-56  132917.790 -  2.5e-56  133077.539 -  1.1e-50
+6.7a+R3          -66439.884  132917.767 - 2.49e-56  132917.790 -  2.5e-56  133077.539 -  1.1e-50
+6.7a+I+R3        -66439.886  132919.773 - 9.12e-57  132919.798 - 9.15e-57  133087.954 - 6.02e-53
+6.7a+I+R3        -66439.886  132919.773 - 9.12e-57  132919.798 - 9.15e-57  133087.954 - 6.02e-53
+12.12            -66470.881  132983.762 - 1.16e-70  132983.790 - 1.16e-70  133160.352 - 1.14e-68
+3.3a+G4          -66675.900  133377.801 - 3.17e-156  133377.812 - 3.2e-156  133487.118 - 1.26e-139
+3.3a+G4          -66675.900  133377.801 - 3.17e-156  133377.812 - 3.2e-156  133487.118 - 1.26e-139
+3.3a+I           -66675.950  133377.900 - 3.01e-156  133377.911 - 3.05e-156  133487.217 - 1.2e-139
+3.3a+I           -66675.950  133377.900 - 3.01e-156  133377.911 - 3.05e-156  133487.217 - 1.2e-139
+3.3a+I+G4        -66676.075  133380.150 - 9.78e-157  133380.163 - 9.88e-157  133497.877 - 5.83e-142
+3.3a+I+G4        -66676.075  133380.150 - 9.78e-157  133380.163 - 9.88e-157  133497.877 - 5.83e-142
+3.3a+R2          -66676.868  133381.736 - 4.43e-157  133381.749 - 4.47e-157  133499.462 - 2.64e-142
+3.3a+R2          -66676.868  133381.736 - 4.43e-157  133381.749 - 4.47e-157  133499.462 - 2.64e-142
+3.3a+I+R2        -66676.009  133382.018 - 3.84e-157  133382.033 - 3.88e-157  133508.154 - 3.42e-144
+3.3a+I+R2        -66676.009  133382.018 - 3.84e-157  133382.033 - 3.88e-157  133508.154 - 3.42e-144
+3.3a+R3          -66676.036  133384.072 - 1.38e-157  133384.089 - 1.39e-157  133518.617 - 1.83e-146
+3.3a+R3          -66676.036  133384.072 - 1.38e-157  133384.089 - 1.39e-157  133518.617 - 1.83e-146
+3.3a+I+R3        -66676.024  133386.047 - 5.13e-158  133386.066 - 5.16e-158  133529.001 - 1.02e-148
+3.3a+I+R3        -66676.024  133386.047 - 5.13e-158  133386.066 - 5.16e-158  133529.001 - 1.02e-148
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+G4
+
+Rate parameter R:
+
+  A-C: 1.0733
+  A-G: 1.5147
+  A-T: 0.4103
+  C-A: 1.2513
+  C-G: 0.6919
+  C-T: 1.7759
+  G-A: 1.8820
+  G-C: 0.7169
+  G-T: 0.3022
+  T-A: 0.6678
+  T-C: 1.2650
+  T-G: 0.4486
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.2973
+  pi(C) = 0.2155
+  pi(G) = 0.2442
+  pi(T) = 0.2429
+
+Rate matrix Q:
+
+  A    -1.006    0.3602    0.5083    0.1377
+  C    0.4199    -1.248    0.2322    0.5959
+  G    0.6315    0.2406   -0.9735    0.1014
+  T    0.2241    0.4245    0.1505   -0.7991
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2562
+
+ Category  Relative_rate  Proportion
+  1         0.002411       0.25
+  2         0.07117        0.25
+  3         0.5143         0.25
+  4         3.412          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -66310.0539 (s.e. 314.5669)
+Unconstrained log-likelihood (without tree): -78203.8613
+Number of free parameters (#branches + #model parameters): 22
+Akaike information criterion (AIC) score: 132664.1078
+Corrected Akaike information criterion (AICc) score: 132664.1383
+Bayesian information criterion (BIC) score: 132849.1066
+
+Total tree length (sum of branch lengths): 0.1086
+Sum of internal branch lengths: 0.0493 (45.3848% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+                                                +----------GCA_036784965.1_Salvelinus_alpinus
+                                         +------|
+                                         |      +---GCA_901001165.2_Salmo_trutta
+                         +---------------|
+                         |               +-------GCA_964263955.1_Coregonus_lavaretus
++------------------------|
+|                        +--------------------------GCF_011004845.1_Esox_lucius
+|
+|                 +---------GCA_951799395.1_Argentina_silus
++-----------------|
+|                 +------------------GCA_963989245.1_Nansenia_antarctica
+|
++**__root__
+
+Tree in newick format:
+
+((((GCA_036784965.1_Salvelinus_alpinus:0.0082449914,GCA_901001165.2_Salmo_trutta:0.0030177632):0.0053451590,GCA_964263955.1_Coregonus_lavaretus:0.0058924941):0.0117662135,GCF_011004845.1_Esox_lucius:0.0198458754):0.0186995197,(GCA_951799395.1_Argentina_silus:0.0076755527,GCA_963989245.1_Nansenia_antarctica:0.0146371193):0.0134783268):0.0000000000;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Mar  9 15:37:49 2026
+Total CPU time used: 2.836049 seconds (0h:0m:2s)
+Total wall-clock time used: 2.899726796 seconds (0h:0m:2s)
+

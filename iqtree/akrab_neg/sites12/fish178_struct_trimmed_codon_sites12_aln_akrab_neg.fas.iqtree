@@ -1,0 +1,183 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: fish178_struct_trimmed_codon_sites12_aln_akrab_neg.fas
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 111438
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 33158 nucleotide sites
+Number of constant sites: 29646 (= 89.4083% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 29646 (= 89.4083% of all sites)
+Number of parsimony informative sites: 1246
+Number of distinct site patterns: 1048
+
+ModelFinder
+-----------
+
+Best-fit model according to AICc: 12.12+R3
+
+List of models sorted by AICc scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+12.12+R3         -75613.928  151305.856 +    0.244  151305.950 +    0.244  151633.809 +    0.494
+12.12+R3         -75613.928  151305.856 +    0.244  151305.950 +    0.244  151633.809 +    0.494
+12.12+I+R3       -75613.214  151306.428 +    0.183  151306.527 +    0.183  151642.790 -  0.00554
+12.12+I+R3       -75613.214  151306.428 +    0.183  151306.527 +    0.183  151642.790 -  0.00554
+12.12+I+R4       -75612.771  151309.543 -   0.0386  151309.652 -   0.0384  151662.722 -  2.6e-07
+12.12+I+R4       -75612.771  151309.543 -   0.0386  151309.652 -   0.0384  151662.722 -  2.6e-07
+12.12+R4         -75613.895  151309.790 -   0.0341  151309.894 -    0.034  151654.561 - 1.54e-05
+12.12+R4         -75613.895  151309.790 -   0.0341  151309.894 -    0.034  151654.561 - 1.54e-05
+12.12+I+G4       -75697.065  151468.131 - 1.41e-36  151468.216 - 1.42e-36  151779.265 - 1.28e-32
+6.7a+I+R3        -75751.844  151571.687 -  4.6e-59  151571.759 - 4.66e-59  151857.594 - 1.26e-49
+6.7a+I+R3        -75751.844  151571.687 -  4.6e-59  151571.759 - 4.66e-59  151857.594 - 1.26e-49
+6.7a+R3          -75753.551  151573.103 - 2.27e-59  151573.171 -  2.3e-59  151850.601 - 4.15e-48
+6.7a+R3          -75753.551  151573.103 - 2.27e-59  151573.171 -  2.3e-59  151850.601 - 4.15e-48
+6.7a+I+R4        -75751.923  151575.847 - 5.75e-60  151575.927 -  5.8e-60  151878.572 -  3.5e-54
+6.7a+I+R4        -75751.923  151575.847 - 5.75e-60  151575.927 -  5.8e-60  151878.572 -  3.5e-54
+6.7a+R4          -75753.692  151577.384 - 2.67e-60  151577.460 -  2.7e-60  151871.700 - 1.09e-52
+6.7a+R4          -75753.692  151577.384 - 2.67e-60  151577.460 -  2.7e-60  151871.700 - 1.09e-52
+12.12+I          -75770.339  151612.678 - 5.78e-68  151612.758 - 5.83e-68  151915.403 - 3.52e-62
+12.12+R2         -75770.013  151614.027 - 2.94e-68  151614.111 - 2.96e-68  151925.161 - 2.68e-64
+12.12+I+R2       -75770.036  151616.071 - 1.06e-68  151616.161 - 1.06e-68  151935.615 - 1.44e-66
+12.12+G4         -75874.430  151820.861 - 3.59e-113  151820.941 - 3.62e-113  152123.586 - 2.19e-107
+3.3a+I+R3        -76022.013  152106.026 - 4.29e-175  152106.086 - 4.37e-175  152366.706 - 3.53e-160
+3.3a+I+R3        -76022.013  152106.026 - 4.29e-175  152106.086 - 4.37e-175  152366.706 - 3.53e-160
+3.3a+R3          -76023.528  152107.055 - 2.57e-175  152107.112 - 2.62e-175  152359.327 - 1.41e-158
+3.3a+R3          -76023.528  152107.055 - 2.57e-175  152107.112 - 2.62e-175  152359.327 - 1.41e-158
+3.3a+I+R4        -76022.100  152110.200 - 5.33e-176  152110.267 - 5.41e-176  152387.698 - 9.75e-165
+3.3a+I+R4        -76022.100  152110.200 - 5.33e-176  152110.267 - 5.41e-176  152387.698 - 9.75e-165
+3.3a+R4          -76023.664  152111.327 - 3.03e-176  152111.391 - 3.08e-176  152380.416 - 3.72e-163
+3.3a+R4          -76023.664  152111.327 - 3.03e-176  152111.391 - 3.08e-176  152380.416 - 3.72e-163
+12.12            -77411.263  154892.525 -        0  154892.601 -        0  155186.842 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 0.9190
+  A-G: 1.5106
+  A-T: 0.4005
+  C-A: 1.2286
+  C-G: 0.7340
+  C-T: 1.8881
+  G-A: 1.8636
+  G-C: 0.5955
+  G-T: 0.3895
+  T-A: 0.5707
+  T-C: 1.5918
+  T-G: 0.3082
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.3001
+  pi(C) = 0.2114
+  pi(G) = 0.2404
+  pi(T) = 0.2481
+
+Rate matrix Q:
+
+  A   -0.9557    0.3103    0.5101    0.1352
+  C    0.4149      -1.3    0.2479    0.6376
+  G    0.6294    0.2011    -0.962    0.1316
+  T    0.1927    0.5376    0.1041   -0.8344
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.5858,1.191e-15) (0.3734,1.164) (0.04085,13.84)
+
+ Category  Relative_rate  Proportion
+  1         1.191e-15      0.5858
+  2         1.164          0.3734
+  3         13.84          0.04085
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -75611.6484 (s.e. 461.3401)
+Unconstrained log-likelihood (without tree): -80941.9604
+Number of free parameters (#branches + #model parameters): 39
+Akaike information criterion (AIC) score: 151301.2969
+Corrected Akaike information criterion (AICc) score: 151301.3911
+Bayesian information criterion (BIC) score: 151629.2494
+
+Total tree length (sum of branch lengths): 0.1804
+Sum of internal branch lengths: 0.0562 (31.1700% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+                               +----GCA_038024135.1_Cyprinella_venusta
+                            +--|
+                            |  +-----GCA_949152265.1_Phoxinus_phoxinus
+                        +---|
+                        |   |           +--GCA_949319135.1_Squalius_cephalus
+                        |   |        +--|
+                        |   |        |  +--GCA_964197995.1_Scardinius_erythrophthalmus
+                        |   |     +--|
+                        |   |     |  +--GCA_963993115.1_Abramis_brama
+                        |   |  +--|
+                        |   |  |  +--GCA_951802725.1_Rutilus_rutilus
+                        |   +--|
+                        |      +--GCA_965113295.1_Leuciscus_leuciscus
+                     +--|
+                     |  |  +---GCA_048301585.1_Rhinogobio_nasutus
+                     |  +--|
+                     |     +--GCA_949357685.1_Gobio_gobio
++--------------------|
+|                    |     +------GCA_936440315.1_Barbus_barbus
+|                    |  +--|
+|                    |  |  +--------GCF_963082965.1_Carassius_carassius
+|                    +--|
+|                       +------------------------------------GCA_947034865.1_Barbatula_barbatula
+|
++--GCA_944039275.1_Danio_rerio
+|
++**__root__
+
+Tree in newick format:
+
+(((((GCA_038024135.1_Cyprinella_venusta:0.0086362000,GCA_949152265.1_Phoxinus_phoxinus:0.0098685816):0.0003726922,((((GCA_949319135.1_Squalius_cephalus:0.0007926898,GCA_964197995.1_Scardinius_erythrophthalmus:0.0015251200):0.0003036759,GCA_963993115.1_Abramis_brama:0.0053990551):0.0000593568,GCA_951802725.1_Rutilus_rutilus:0.0018102768):0.0002116474,GCA_965113295.1_Leuciscus_leuciscus:0.0042281634):0.0015657087):0.0072505734,(GCA_048301585.1_Rhinogobio_nasutus:0.0062927629,GCA_949357685.1_Gobio_gobio:0.0052034444):0.0031699848):0.0050155067,((GCA_936440315.1_Barbus_barbus:0.0103844537,GCF_963082965.1_Carassius_carassius:0.0141855214):0.0045186169,GCA_947034865.1_Barbatula_barbatula:0.0547953210):0.0014337406):0.0323380410,GCA_944039275.1_Danio_rerio:0.0010670485):0.0000000000;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Mar  9 15:33:11 2026
+Total CPU time used: 20.237028 seconds (0h:0m:20s)
+Total wall-clock time used: 20.52214606 seconds (0h:0m:20s)
+
