@@ -1,0 +1,136 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: aKRAB_UNK_1_s3.fas
+Type of analysis: tree reconstruction
+Random seed number: 800447
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 16 sequences with 5639253 nucleotide sites
+Number of constant sites: 4.40967e+06 (= 78.196% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4.40967e+06 (= 78.196% of all sites)
+Number of parsimony informative sites: 722625
+Number of distinct site patterns: 698615
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 0.5453
+  A-G: 2.0115
+  A-T: 0.5228
+  C-A: 0.3649
+  C-G: 0.4955
+  C-T: 2.4393
+  G-A: 2.0021
+  G-C: 0.4301
+  G-T: 0.2640
+  T-A: 0.4880
+  T-C: 2.0557
+  T-G: 0.3808
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.2385
+  pi(C) = 0.238
+  pi(G) = 0.259
+  pi(T) = 0.2645
+
+Rate matrix Q:
+
+  A    -1.029    0.1823    0.6724    0.1747
+  C     0.122    -1.103    0.1656    0.8154
+  G    0.6692    0.1438   -0.9012   0.08824
+  T    0.1631    0.6872    0.1273   -0.9776
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.5378,0.3532) (0.4404,1.269) (0.02179,11.52)
+
+ Category  Relative_rate  Proportion
+  1         0.3532         0.5378
+  2         1.269          0.4404
+  3         11.52          0.02179
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -12611373.4953 (s.e. 9363.1369)
+Unconstrained log-likelihood (without tree): -27017661.9226
+Number of free parameters (#branches + #model parameters): 45
+Akaike information criterion (AIC) score: 25222836.9907
+Corrected Akaike information criterion (AICc) score: 25222836.9914
+Bayesian information criterion (BIC) score: 25223446.5275
+
+Total tree length (sum of branch lengths): 3.4061
+Sum of internal branch lengths: 1.1596 (34.0460% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+   +--------------------------------------------------------GCA_035084275.1_Hydrolagus_colliei
++--| (Node2)
+|  |                                       +--GCA_963514005.1_Raja_brachyura
+|  |                      +----------------| (Node6)
+|  |                      |                +--GCF_010909765.2_Amblyraja_radiata
+|  |     +----------------| (Node5)
+|  |     |                |     +----GCF_009764475.1_Pristis_pectinata
+|  |     |                |  +--| (Node8)
+|  |     |                |  |  |          +--GCF_030028105.1_Mobula_birostris
+|  |     |                |  |  +----------| (Node9)
+|  |     |                |  |             +---GCF_030144855.1_Hypanus_sabinus
+|  |     |                +--| (Node7)
+|  |     |                   +----------------GCF_036971445.1_Narcine_bancroftii
+|  |  +--| (Node4)
+|  |  |  |             +--GCA_964194155.1_Cetorhinus_maximus
+|  |  |  |        +----| (Node13)
+|  |  |  |        |    +--GCF_017639515.1_Carcharodon_carcharias
+|  |  |  |     +--| (Node12)
+|  |  |  |     |  |  +--------GCA_964213995.1_Mustelus_asterias
+|  |  |  |     |  +--| (Node14)
+|  |  |  |     |     +---------GCF_902713615.1_Scyliorhinus_canicula
+|  |  |  |  +--| (Node11)
+|  |  |  |  |  |           +-------GCF_020745735.1_Hemiscyllium_ocellatum
+|  |  |  |  |  +-----------| (Node15)
+|  |  |  |  |              +--------GCF_030684315.1_Stegostoma_tigrinum
+|  |  |  +--| (Node10)
+|  |  |     +-------GCF_036365525.1_Heterodontus_francisci
+|  +--| (Node3)
+|     +---------GCF_044704955.1_Pristiophorus_japonicus
+| (Node1)
++----GCF_035084215.1_Heptranchias_perlo
+|
++**__root__
+
+Tree in newick format:
+
+((GCA_035084275.1_Hydrolagus_colliei:0.7966840850,((((GCA_963514005.1_Raja_brachyura:0.0465552844,GCF_010909765.2_Amblyraja_radiata:0.0442123820)Node6:0.2407880251,((GCF_009764475.1_Pristis_pectinata:0.0825630571,(GCF_030028105.1_Mobula_birostris:0.0500921517,GCF_030144855.1_Hypanus_sabinus:0.0640771184)Node9:0.1519617606)Node8:0.0397087126,GCF_036971445.1_Narcine_bancroftii:0.2473152119)Node7:0.0101775150)Node5:0.2390430620,((((GCA_964194155.1_Cetorhinus_maximus:0.0246267121,GCF_017639515.1_Carcharodon_carcharias:0.0317242545)Node13:0.0768548261,(GCA_964213995.1_Mustelus_asterias:0.1366729153,GCF_902713615.1_Scyliorhinus_canicula:0.1415810143)Node14:0.0410259158)Node12:0.0337807014,(GCF_020745735.1_Hemiscyllium_ocellatum:0.1173085030,GCF_030684315.1_Stegostoma_tigrinum:0.1242253139)Node15:0.1677604728)Node11:0.0424901598,GCF_036365525.1_Heterodontus_francisci:0.1182400867)Node10:0.0458888386)Node4:0.0114429311,GCF_044704955.1_Pristiophorus_japonicus:0.1504181994)Node3:0.0276177499)Node2:0.0311001025,GCF_035084215.1_Heptranchias_perlo:0.0701599284)Node1:0.0000000169;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 19 15:34:49 2026
+Total CPU time used: 90805.43446 seconds (25h:13m:25s)
+Total wall-clock time used: 3186.474929 seconds (0h:53m:6s)
+

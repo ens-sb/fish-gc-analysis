@@ -1,0 +1,110 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: aKRAB_POS_1_s3.fas
+Type of analysis: tree reconstruction
+Random seed number: 854336
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 3 sequences with 5639253 nucleotide sites
+Number of constant sites: 5.16953e+06 (= 91.6704% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 5.16953e+06 (= 91.6704% of all sites)
+Number of parsimony informative sites: 0
+Number of distinct site patterns: 125
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 0.6950
+  A-G: 2.5938
+  A-T: 0.7010
+  C-A: 0.2705
+  C-G: 0.5509
+  C-T: 1.2683
+  G-A: 0.9952
+  G-C: 0.5116
+  G-T: 0.2462
+  T-A: 0.5295
+  T-C: 3.1066
+  T-G: 0.5315
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.1333
+  pi(C) = 0.3582
+  pi(G) = 0.356
+  pi(T) = 0.1525
+
+Rate matrix Q:
+
+  A    -1.571    0.2736     1.021     0.276
+  C    0.1065   -0.8227    0.2169    0.4993
+  G    0.3918    0.2014   -0.6902   0.09695
+  T    0.2085     1.223    0.2092    -1.641
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.3265,0.5562) (0.337,0.9361) (0.3364,1.495)
+
+ Category  Relative_rate  Proportion
+  1         0.5562         0.3265
+  2         0.9361         0.337
+  3         1.495          0.3364
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3757258.8728 (s.e. 3052.3008)
+Unconstrained log-likelihood (without tree): -9585853.1467
+Number of free parameters (#branches + #model parameters): 19
+Akaike information criterion (AIC) score: 7514555.7457
+Corrected Akaike information criterion (AICc) score: 7514555.7458
+Bayesian information criterion (BIC) score: 7514813.1057
+
+Total tree length (sum of branch lengths): 0.6576
+Sum of internal branch lengths: 0.3175 (48.2783% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+                                        +--------------GCF_013347855.1_Anguilla_anguilla
++---------------------------------------| (Node2)
+|                                       +------------------GCF_963514075.1_Conger_conger
+| (Node1)
++-------GCF_013368585.1_Megalops_cyprinoides
+|
++**__root__
+
+Tree in newick format:
+
+((GCF_013347855.1_Anguilla_anguilla:0.1187403403,GCF_963514075.1_Conger_conger:0.1514462492)Node2:0.3174635033,GCF_013368585.1_Megalops_cyprinoides:0.0699201550)Node1:0.0000000000;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 19 14:42:04 2026
+Total CPU time used: 95.757007 seconds (0h:1m:35s)
+Total wall-clock time used: 26.78261029 seconds (0h:0m:26s)
+

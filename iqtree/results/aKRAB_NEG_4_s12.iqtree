@@ -1,0 +1,142 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: aKRAB_NEG_4_s12.fas
+Type of analysis: tree reconstruction
+Random seed number: 268262
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 19 sequences with 11278506 nucleotide sites
+Number of constant sites: 1.0286e+07 (= 91.2004% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1.0286e+07 (= 91.2004% of all sites)
+Number of parsimony informative sites: 453651
+Number of distinct site patterns: 633137
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 0.8959
+  A-G: 1.6379
+  A-T: 0.4629
+  C-A: 0.8979
+  C-G: 0.8509
+  C-T: 1.4428
+  G-A: 1.8892
+  G-C: 0.7817
+  G-T: 0.3933
+  T-A: 0.6896
+  T-C: 1.5603
+  T-G: 0.4977
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.2841
+  pi(C) = 0.2468
+  pi(G) = 0.2551
+  pi(T) = 0.214
+
+Rate matrix Q:
+
+  A    -0.996    0.2978    0.5444    0.1538
+  C    0.2984    -1.061    0.2828    0.4795
+  G    0.6279    0.2598    -1.018    0.1307
+  T    0.2292    0.5186    0.1654   -0.9132
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.6298,0.06693) (0.2579,1.436) (0.1123,5.231)
+
+ Category  Relative_rate  Proportion
+  1         0.06693        0.6298
+  2         1.436          0.2579
+  3         5.231          0.1123
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14595146.5164 (s.e. 9394.7241)
+Unconstrained log-likelihood (without tree): -47006469.1891
+Number of free parameters (#branches + #model parameters): 51
+Akaike information criterion (AIC) score: 29190395.0329
+Corrected Akaike information criterion (AICc) score: 29190395.0334
+Bayesian information criterion (BIC) score: 29191121.1918
+
+Total tree length (sum of branch lengths): 0.9281
+Sum of internal branch lengths: 0.2915 (31.4125% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+         +-------GCA_014839685.1_Anableps_anableps
+      +--| (Node3)
+      |  +---------GCF_021462225.1_Girardinichthys_multiradiatus
++-----| (Node2)
+|     |              +------------------GCA_014839995.1_Xenentodon_cancila
+|     +--------------| (Node4)
+|                    |            +-------------------------GCA_020510985.1_Pholidichthys_leucotaenia
+|                    |         +--| (Node8)
+|                    |         |  |                  +--GCA_963969265.1_Rhamphochromis_sp._chilingali
+|                    |         |  |               +--| (Node11)
+|                    |         |  |               |  +--GCA_965226115.1_Aulonocara_stuartgranti
+|                    |         |  |      +--------| (Node10)
+|                    |         |  |      |        +--GCA_964374335.1_Astatotilapia_calliptera
+|                    |         |  +------| (Node9)
+|                    |         |         +-------GCF_007364275.1_Archocentrus_centrarchus
+|                    |      +--| (Node7)
+|                    |      |  |  +-------------GCA_963514085.1_Chelon_labrosus
+|                    |      |  +--| (Node12)
+|                    |      |     +--------------GCF_900634625.1_Parambassis_ranga
+|                    |  +---| (Node6)
+|                    |  |   |        +------------------GCA_049082185.1_Cristiceps_australis
+|                    |  |   +--------| (Node13)
+|                    |  |            |             +----GCA_963383615.1_Lipophrys_pholis
+|                    |  |            |        +----| (Node15)
+|                    |  |            |        |    +------GCA_963422515.1_Blennius_ocellaris
+|                    |  |            +--------| (Node14)
+|                    |  |                     +----------GCF_902148845.1_Salarias_fasciatus
+|                    +--| (Node5)
+|                       |      +--------GCA_027942865.1_Odontesthes_bonariensis
+|                       |  +---| (Node17)
+|                       |  |   +------------------GCA_048628825.1_Menidia_menidia
+|                       +--| (Node16)
+|                          |       +--------GCA_933228915.1_Telmatherina_bonti
+|                          +-------| (Node18)
+|                                  +------GCF_017639745.1_Melanotaenia_boesemani
+| (Node1)
++----GCA_037039145.1_Fundulus_diaphanus
+|
++**__root__
+
+Tree in newick format:
+
+(((GCA_014839685.1_Anableps_anableps:0.0269931539,GCF_021462225.1_Girardinichthys_multiradiatus:0.0326197386)Node3:0.0033318818,(GCA_014839995.1_Xenentodon_cancila:0.0631205661,((((GCA_020510985.1_Pholidichthys_leucotaenia:0.0834567075,(((GCA_963969265.1_Rhamphochromis_sp._chilingali:0.0013044935,GCA_965226115.1_Aulonocara_stuartgranti:0.0011191016)Node11:0.0007187383,GCA_964374335.1_Astatotilapia_calliptera:0.0008600493)Node10:0.0306124926,GCF_007364275.1_Archocentrus_centrarchus:0.0260302039)Node9:0.0244480407)Node8:0.0079931945,(GCA_963514085.1_Chelon_labrosus:0.0457370835,GCF_900634625.1_Parambassis_ranga:0.0503870388)Node12:0.0053278370)Node7:0.0027514991,(GCA_049082185.1_Cristiceps_australis:0.0618902189,((GCA_963383615.1_Lipophrys_pholis:0.0171950736,GCA_963422515.1_Blennius_ocellaris:0.0238350387)Node15:0.0184323059,GCF_902148845.1_Salarias_fasciatus:0.0379425067)Node14:0.0305853461)Node13:0.0310713306)Node6:0.0136042188,((GCA_027942865.1_Odontesthes_bonariensis:0.0308304493,GCA_048628825.1_Menidia_menidia:0.0617178901)Node17:0.0152245096,(GCA_933228915.1_Telmatherina_bonti:0.0318531715,GCF_017639745.1_Melanotaenia_boesemani:0.0235434252)Node18:0.0265772916)Node16:0.0068532307)Node5:0.0038876640)Node4:0.0486691709)Node2:0.0214610734,GCA_037039145.1_Fundulus_diaphanus:0.0161472050)Node1:0.0000000090;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 19 15:33:15 2026
+Total CPU time used: 80137.13033 seconds (22h:15m:37s)
+Total wall-clock time used: 3068.735828 seconds (0h:51m:8s)
+

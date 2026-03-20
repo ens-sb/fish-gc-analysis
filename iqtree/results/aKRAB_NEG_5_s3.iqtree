@@ -1,0 +1,224 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: aKRAB_NEG_5_s3.fas
+Type of analysis: tree reconstruction
+Random seed number: 789121
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 60 sequences with 5639253 nucleotide sites
+Number of constant sites: 4.00544e+06 (= 71.0278% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4.00544e+06 (= 71.0278% of all sites)
+Number of parsimony informative sites: 1267445
+Number of distinct site patterns: 1546052
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 0.6276
+  A-G: 2.3121
+  A-T: 0.5844
+  C-A: 0.4083
+  C-G: 0.4501
+  C-T: 1.7303
+  G-A: 1.3622
+  G-C: 0.4386
+  G-T: 0.3868
+  T-A: 0.4623
+  T-C: 2.7428
+  T-G: 0.4943
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.1797
+  pi(C) = 0.3131
+  pi(G) = 0.3009
+  pi(T) = 0.2063
+
+Rate matrix Q:
+
+  A     -1.23     0.219    0.8069     0.204
+  C    0.1425   -0.9035    0.1571    0.6039
+  G    0.4754    0.1531   -0.7635     0.135
+  T    0.1614    0.9573    0.1725    -1.291
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.3328,0.2636) (0.4889,0.9519) (0.1783,2.506)
+
+ Category  Relative_rate  Proportion
+  1         0.2636         0.3328
+  2         0.9519         0.4889
+  3         2.506          0.1783
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -34445982.9673 (s.e. 26604.0522)
+Unconstrained log-likelihood (without tree): -35691493.7556
+Number of free parameters (#branches + #model parameters): 133
+Akaike information criterion (AIC) score: 68892231.9346
+Corrected Akaike information criterion (AICc) score: 68892231.9409
+Bayesian information criterion (BIC) score: 68894033.4545
+
+Total tree length (sum of branch lengths): 7.7984
+Sum of internal branch lengths: 2.6984 (34.6024% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+                                           +-------------------------------GCA_013358685.1_Antennarius_maculatus
+                                        +--| (Node11)
+                                        |  +-----------GCF_020382885.2_Scatophagus_argus
+                                     +--| (Node10)
+                                     |  |   +-----GCF_017976325.1_Chelmon_rostratus
+                                     |  +---| (Node12)
+                                     |      +------GCF_039877785.1_Chaetodon_trifascialis
+                                  +--| (Node9)
+                                  |  |                 +--GCA_041753875.1_Acanthopagrus_schlegelii
+                                  |  |              +--| (Node17)
+                                  |  |              |  +--GCF_904848185.1_Acanthopagrus_latus
+                                  |  |           +--| (Node16)
+                                  |  |           |  +--GCF_900880675.1_Sparus_aurata
+                                  |  |     +-----| (Node15)
+                                  |  |     |     +--GCA_965226575.1_Pagrus_pagrus
+                                  |  |  +--| (Node14)
+                                  |  |  |  +--------------GCA_045362495.1_Lethrinus_nebulosus
+                                  |  +--| (Node13)
+                                  |     |  +------GCA_045363895.1_Pristipomoides_typus
+                                  |     +--| (Node18)
+                                  |        |  +-----GCA_048128725.1_Symphorus_nematophorus
+                                  |        +--| (Node19)
+                                  |           +------GCA_048129055.1_Caesio_teres
+                               +--| (Node8)
+                               |  |                        +--GCA_020745685.1_Tautogolabrus_adspersus
+                               |  |                     +--| (Node24)
+                               |  |                     |  +-------GCA_947650265.1_Symphodus_melops
+                               |  |           +---------| (Node23)
+                               |  |           |         |  +--GCF_963584025.1_Labrus_mixtus
+                               |  |           |         +--| (Node25)
+                               |  |           |            +--GCF_963930695.1_Labrus_bergylta
+                               |  |        +--| (Node22)
+                               |  |        |  +-----------------GCF_009762535.1_Notolabrus_celidotus
+                               |  |  +-----| (Node21)
+                               |  |  |     +------------------------GCA_047301625.1_Choerodon_schoenleinii
+                               |  +--| (Node20)
+                               |     |                       +--GCA_949357725.1_Hyperoplus_immaculatus
+                               |     +-----------------------| (Node26)
+                               |                             +--GCA_949987685.1_Ammodytes_marinus
+                            +--| (Node7)
+                            |  |  +-------GCA_031216445.1_Lateolabrax_maculatus
+                            |  +--| (Node27)
+                            |     +----------GCF_042242105.1_Pempheris_klunzingeri
+                         +--| (Node6)
+                         |  |  +--------GCA_019677235.1_Micropterus_salmoides
+                         |  +--| (Node28)
+                         |     +------GCF_043641665.1_Enoplosus_armatus
+                      +--| (Node5)
+                      |  |                          +--GCA_028022725.1_Lycodopsis_pacificus
+                      |  |                       +--| (Node36)
+                      |  |                       |  +--GCA_949748355.1_Melanostigma_gelatinosum
+                      |  |                   +---| (Node35)
+                      |  |                   |   +--GCA_910591455.2_Pholis_gunnellus
+                      |  |              +----| (Node34)
+                      |  |              |    |                  +------GCA_048126635.1_Spinachia_spinachia
+                      |  |              |    |               +--| (Node39)
+                      |  |              |    |               |  +-----GCF_949316345.1_Pungitius_pungitius
+                      |  |              |    |  +------------| (Node38)
+                      |  |              |    |  |            +-----GCA_964276395.1_Gasterosteus_aculeatus
+                      |  |              |    +--| (Node37)
+                      |  |              |       |  +-----GCA_910589615.1_Taurulus_bubalis
+                      |  |              |       +--| (Node40)
+                      |  |              |          +-----GCF_009769545.1_Cyclopterus_lumpus
+                      |  |           +--| (Node33)
+                      |  |           |  +--------------GCA_963514095.1_Eutrigla_gurnardus
+                      |  |        +--| (Node32)
+                      |  |        |  |       +--GCA_043250625.1_Sebastes_fasciatus
+                      |  |        |  +-------| (Node41)
+                      |  |        |          +--GCF_015220745.1_Sebastes_umbrosus
+                      |  |     +--| (Node31)
+                      |  |     |  |  +-------------------GCA_949606895.1_Notothenia_rossii
+                      |  |     |  +--| (Node42)
+                      |  |     |     +-------GCF_900634415.1_Cottoperca_gobio
+                      |  |  +--| (Node30)
+                      |  |  |  +-----------GCA_963691815.1_Echiichthys_vipera
+                      |  +--| (Node29)
+                      |     |        +--GCA_041903045.1_Epinephelus_lanceolatus
+                      |     +--------| (Node43)
+                      |              +--GCA_048129235.1_Epinephelus_rankini
+                   +--| (Node4)
+                   |  |       +-----GCA_042242135.1_Arripis_georgiana
+                   |  +-------| (Node44)
+                   |          |          +--GCF_027409825.1_Scomber_japonicus
+                   |          |  +-------| (Node46)
+                   |          |  |       +--GCF_963691925.1_Scomber_scombrus
+                   |          +--| (Node45)
+                   |             |       +--GCF_910596095.1_Thunnus_maccoyii
+                   |             |    +--| (Node48)
+                   |             |    |  +--GCF_914725855.1_Thunnus_albacares
+                   |             +----| (Node47)
+                   |                  +--GCF_963924715.1_Thunnus_thynnus
+                +--| (Node3)
+                |  |        +------------------GCA_905171665.2_Trachurus_trachurus
+                |  |     +--| (Node51)
+                |  |     |  +-------------------GCF_900963305.1_Echeneis_naucrates
+                |  |  +--| (Node50)
+                |  |  |  |                    +------GCA_963457635.1_Microchirus_variegatus
+                |  |  |  |  +-----------------| (Node53)
+                |  |  |  |  |                 +----GCF_958295425.1_Solea_solea
+                |  |  |  +--| (Node52)
+                |  |  |     |  +--------------GCA_963854745.1_Scophthalmus_maximus
+                |  |  |     +--| (Node54)
+                |  |  |        |              +---GCA_964266715.1_Microstomus_kitt
+                |  |  |        |           +--| (Node56)
+                |  |  |        |           |  |     +--GCF_947347685.1_Pleuronectes_platessa
+                |  |  |        |           |  |  +--| (Node58)
+                |  |  |        |           |  |  |  +--GCF_949316205.1_Platichthys_flesus
+                |  |  |        |           |  +--| (Node57)
+                |  |  |        |           |     +---GCF_963576545.1_Limanda_limanda
+                |  |  |        +-----------| (Node55)
+                |  |  |                    +--GCF_009819705.1_Hippoglossus_hippoglossus
+                |  +--| (Node49)
+                |     +--------GCF_017976425.1_Toxotes_jaculatrix
++---------------| (Node2)
+|               |    +----------GCF_900324465.2_Anabas_testudineus
+|               +----| (Node59)
+|                    +------------------------GCF_900634795.4_Betta_splendens
+| (Node1)
++**GCF_900324485.2_Mastacembelus_armatus
+|
++**__root__
+
+Tree in newick format:
+
+(((((((((((GCA_013358685.1_Antennarius_maculatus:0.3684935677,GCF_020382885.2_Scatophagus_argus:0.1430189863)Node11:0.0162853790,(GCF_017976325.1_Chelmon_rostratus:0.0715021950,GCF_039877785.1_Chaetodon_trifascialis:0.0895958000)Node12:0.0476135616)Node10:0.0035738215,(((((GCA_041753875.1_Acanthopagrus_schlegelii:0.0097416639,GCF_904848185.1_Acanthopagrus_latus:0.0099330298)Node17:0.0374628430,GCF_900880675.1_Sparus_aurata:0.0387611742)Node16:0.0365631498,GCA_965226575.1_Pagrus_pagrus:0.0378715446)Node15:0.0702799149,GCA_045362495.1_Lethrinus_nebulosus:0.1703366678)Node14:0.0322339208,(GCA_045363895.1_Pristipomoides_typus:0.0842496349,(GCA_048128725.1_Symphorus_nematophorus:0.0747260739,GCA_048129055.1_Caesio_teres:0.0865466412)Node19:0.0372493052)Node18:0.0276857161)Node13:0.0069017372)Node9:0.0142850891,(((((GCA_020745685.1_Tautogolabrus_adspersus:0.0258806627,GCA_947650265.1_Symphodus_melops:0.0954061899)Node24:0.0170294960,(GCF_963584025.1_Labrus_mixtus:0.0166442398,GCF_963930695.1_Labrus_bergylta:0.0198965923)Node25:0.0448867088)Node23:0.1194869288,GCF_009762535.1_Notolabrus_celidotus:0.2049704613)Node22:0.0326058902,GCA_047301625.1_Choerodon_schoenleinii:0.2903428452)Node21:0.0681337586,(GCA_949357725.1_Hyperoplus_immaculatus:0.0162876605,GCA_949987685.1_Ammodytes_marinus:0.0136228970)Node26:0.2779370267)Node20:0.0176597906)Node8:0.0029116291,(GCA_031216445.1_Lateolabrax_maculatus:0.0924948679,GCF_042242105.1_Pempheris_klunzingeri:0.1312697206)Node27:0.0235849726)Node7:0.0022588283,(GCA_019677235.1_Micropterus_salmoides:0.1096008305,GCF_043641665.1_Enoplosus_armatus:0.0831304006)Node28:0.0145709526)Node6:0.0043587150,((((((((GCA_028022725.1_Lycodopsis_pacificus:0.0156714443,GCA_949748355.1_Melanostigma_gelatinosum:0.0166429040)Node36:0.0234890706,GCA_910591455.2_Pholis_gunnellus:0.0304368478)Node35:0.0505457204,(((GCA_048126635.1_Spinachia_spinachia:0.0898147667,GCF_949316345.1_Pungitius_pungitius:0.0717729958)Node39:0.0095777265,GCA_964276395.1_Gasterosteus_aculeatus:0.0742146653)Node38:0.1482989375,(GCA_910589615.1_Taurulus_bubalis:0.0751179310,GCF_009769545.1_Cyclopterus_lumpus:0.0729016294)Node40:0.0412409584)Node37:0.0102756771)Node34:0.0577544439,GCA_963514095.1_Eutrigla_gurnardus:0.1764832941)Node33:0.0148781556,(GCA_043250625.1_Sebastes_fasciatus:0.0125177446,GCF_015220745.1_Sebastes_umbrosus:0.0125870609)Node41:0.0944603735)Node32:0.0097411433,(GCA_949606895.1_Notothenia_rossii:0.2307225102,GCF_900634415.1_Cottoperca_gobio:0.0961185103)Node42:0.0317506269)Node31:0.0040986963,GCA_963691815.1_Echiichthys_vipera:0.1430509220)Node30:0.0070200547,(GCA_041903045.1_Epinephelus_lanceolatus:0.0240683760,GCA_048129235.1_Epinephelus_rankini:0.0295432018)Node43:0.1109313527)Node29:0.0213105732)Node5:0.0288852253,(GCA_042242135.1_Arripis_georgiana:0.0724622300,((GCF_027409825.1_Scomber_japonicus:0.0388326788,GCF_963691925.1_Scomber_scombrus:0.0310265900)Node46:0.0972724119,((GCF_910596095.1_Thunnus_maccoyii:0.0078730248,GCF_914725855.1_Thunnus_albacares:0.0091719901)Node48:0.0026834532,GCF_963924715.1_Thunnus_thynnus:0.0074712018)Node47:0.0595640712)Node45:0.0108861211)Node44:0.0967941046)Node4:0.0250029809,(((GCA_905171665.2_Trachurus_trachurus:0.2196589742,GCF_900963305.1_Echeneis_naucrates:0.2260326535)Node51:0.0283369907,((GCA_963457635.1_Microchirus_variegatus:0.0885190833,GCF_958295425.1_Solea_solea:0.0573692829)Node53:0.2079779771,(GCA_963854745.1_Scophthalmus_maximus:0.1743313526,((GCA_964266715.1_Microstomus_kitt:0.0501182273,((GCF_947347685.1_Pleuronectes_platessa:0.0236498903,GCF_949316205.1_Platichthys_flesus:0.0291505199)Node58:0.0198862459,GCF_963576545.1_Limanda_limanda:0.0492356791)Node57:0.0189411874)Node56:0.0066639657,GCF_009819705.1_Hippoglossus_hippoglossus:0.0207553172)Node55:0.1414698211)Node54:0.0241816016)Node52:0.0310988832)Node50:0.0066927789,GCF_017976425.1_Toxotes_jaculatrix:0.1117360104)Node49:0.0285198417)Node3:0.0286146668,(GCF_900324465.2_Anabas_testudineus:0.1340581264,GCF_900634795.4_Betta_splendens:0.2925535933)Node59:0.0613813105)Node2:0.1826586813,GCF_900324485.2_Mastacembelus_armatus:0.0000000360)Node1:0.0000000000;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 19 19:31:45 2026
+Total CPU time used: 474448.5407 seconds (131h:47m:28s)
+Total wall-clock time used: 17390.02162 seconds (4h:49m:50s)
+

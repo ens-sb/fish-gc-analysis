@@ -1,0 +1,142 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: aKRAB_POS_3_s12.fas
+Type of analysis: tree reconstruction
+Random seed number: 906334
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 19 sequences with 11278506 nucleotide sites
+Number of constant sites: 9.97533e+06 (= 88.4455% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 9.97533e+06 (= 88.4455% of all sites)
+Number of parsimony informative sites: 679213
+Number of distinct site patterns: 863734
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 1.1114
+  A-G: 1.5217
+  A-T: 0.4834
+  C-A: 1.0241
+  C-G: 0.8965
+  C-T: 1.2417
+  G-A: 1.6306
+  G-C: 0.8841
+  G-T: 0.4230
+  T-A: 0.8273
+  T-C: 1.3330
+  T-G: 0.6232
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.2764
+  pi(C) = 0.2565
+  pi(G) = 0.2644
+  pi(T) = 0.2026
+
+Rate matrix Q:
+
+  A    -1.034    0.3688    0.5049    0.1604
+  C    0.3398    -1.049    0.2975     0.412
+  G    0.5411    0.2934   -0.9749    0.1404
+  T    0.2745    0.4423    0.2068   -0.9237
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.557,0.075) (0.2787,1.162) (0.1642,3.862)
+
+ Category  Relative_rate  Proportion
+  1         0.075          0.557
+  2         1.162          0.2787
+  3         3.862          0.1642
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -17565081.6794 (s.e. 10054.2739)
+Unconstrained log-likelihood (without tree): -55856860.3188
+Number of free parameters (#branches + #model parameters): 51
+Akaike information criterion (AIC) score: 35130265.3587
+Corrected Akaike information criterion (AICc) score: 35130265.3592
+Bayesian information criterion (BIC) score: 35130991.5176
+
+Total tree length (sum of branch lengths): 1.1913
+Sum of internal branch lengths: 0.5402 (45.3439% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+   +---------------------------------GCA_017639675.1_Aplochiton_taeniatus
++--| (Node2)
+|  |                               +-----GCA_036784965.1_Salvelinus_alpinus
+|  |                            +--| (Node7)
+|  |                            |  +--GCA_901001165.2_Salmo_trutta
+|  |                      +-----| (Node6)
+|  |                      |     +----GCA_964263955.1_Coregonus_lavaretus
+|  |         +------------| (Node5)
+|  |         |            +------------------GCF_011004845.1_Esox_lucius
+|  |    +----| (Node4)
+|  |    |    |           +-----GCA_951799395.1_Argentina_silus
+|  |    |    +-----------| (Node8)
+|  |    |                +-----------GCA_963989245.1_Nansenia_antarctica
+|  +----| (Node3)
+|       |                            +--GCA_038355195.1_Osmerus_mordax
+|       |      +---------------------| (Node10)
+|       |      |                     +--GCF_963692335.1_Osmerus_eperlanus
+|       +------| (Node9)
+|              +-------------------GCA_949987555.1_Borostomias_antarcticus
+| (Node1)
+|            +-----------------------------------GCA_046255685.1_Amblyopsis_spelaea
+|         +--| (Node14)
+|         |  |            +--GCA_047511565.1_Polymixia_lowei
+|         |  +------------| (Node15)
+|         |               +--GCA_048537225.1_Polymixia_cf._hollisterae
+|      +--| (Node13)
+|      |  |                                        +-------GCA_964030765.1_Micromesistius_poutassou
+|      |  +----------------------------------------| (Node16)
+|      |                                           +------GCF_902167405.1_Gadus_morhua
+|   +--| (Node12)
+|   |  |                              +---GCA_951216825.1_Electrona_antarctica
+|   |  |                      +-------| (Node18)
+|   |  |                      |       +----GCA_964188405.1_Protomyctophum_parallelum
+|   |  +----------------------| (Node17)
+|   |                         +---------GCA_963921795.1_Nannobrachium_achirus
++---| (Node11)
+|   +---------------------------GCA_963971535.1_Notolepis_coatsi
+|
++**__root__
+
+Tree in newick format:
+
+((GCA_017639675.1_Aplochiton_taeniatus:0.1025276612,(((((GCA_036784965.1_Salvelinus_alpinus:0.0186191581,GCA_901001165.2_Salmo_trutta:0.0108851372)Node7:0.0106037473,GCA_964263955.1_Coregonus_lavaretus:0.0161169597)Node6:0.0190399592,GCF_011004845.1_Esox_lucius:0.0591573435)Node5:0.0404788326,(GCA_951799395.1_Argentina_silus:0.0183056326,GCA_963989245.1_Nansenia_antarctica:0.0370475119)Node8:0.0387695941)Node4:0.0156263737,((GCA_038355195.1_Osmerus_mordax:0.0049836552,GCF_963692335.1_Osmerus_eperlanus:0.0051509151)Node10:0.0684286062,GCA_949987555.1_Borostomias_antarcticus:0.0621813505)Node9:0.0219206304)Node3:0.0158036098)Node2:0.0092758688,((((GCA_046255685.1_Amblyopsis_spelaea:0.1078761167,(GCA_047511565.1_Polymixia_lowei:0.0061606047,GCA_048537225.1_Polymixia_cf._hollisterae:0.0060632955)Node15:0.0399989494)Node14:0.0074411557,(GCA_964030765.1_Micromesistius_poutassou:0.0240152873,GCF_902167405.1_Gadus_morhua:0.0233433111)Node16:0.1234514786)Node13:0.0085375819,((GCA_951216825.1_Electrona_antarctica:0.0138831439,GCA_964188405.1_Protomyctophum_parallelum:0.0163222429)Node18:0.0262795773,GCA_963921795.1_Nannobrachium_achirus:0.0322046834)Node17:0.0711902191)Node12:0.0103890663,GCA_963971535.1_Notolepis_coatsi:0.0862882976)Node11:0.0129578959)Node1:0.0000000092;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 19 15:44:49 2026
+Total CPU time used: 99922.58861 seconds (27h:45m:22s)
+Total wall-clock time used: 3766.05359 seconds (1h:2m:46s)
+

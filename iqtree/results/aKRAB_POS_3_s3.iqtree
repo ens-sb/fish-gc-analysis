@@ -1,0 +1,142 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: aKRAB_POS_3_s3.fas
+Type of analysis: tree reconstruction
+Random seed number: 599721
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 19 sequences with 5639253 nucleotide sites
+Number of constant sites: 4.16285e+06 (= 73.8192% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4.16285e+06 (= 73.8192% of all sites)
+Number of parsimony informative sites: 1029737
+Number of distinct site patterns: 1086560
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 0.7621
+  A-G: 2.3298
+  A-T: 0.7495
+  C-A: 0.3481
+  C-G: 0.4221
+  C-T: 1.4430
+  G-A: 1.1396
+  G-C: 0.4126
+  G-T: 0.2946
+  T-A: 0.6005
+  T-C: 2.9582
+  T-G: 0.5398
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.155
+  pi(C) = 0.346
+  pi(G) = 0.3254
+  pi(T) = 0.1736
+
+Rate matrix Q:
+
+  A    -1.437     0.285    0.8714    0.2803
+  C    0.1302   -0.8278    0.1579    0.5397
+  G    0.4263    0.1543   -0.6907    0.1102
+  T    0.2246     1.106    0.2019    -1.533
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.2117,0.2267) (0.6649,0.9001) (0.1234,2.865)
+
+ Category  Relative_rate  Proportion
+  1         0.2267         0.2117
+  2         0.9001         0.6649
+  3         2.865          0.1234
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -16842524.4562 (s.e. 11804.1697)
+Unconstrained log-likelihood (without tree): -31991423.8876
+Number of free parameters (#branches + #model parameters): 51
+Akaike information criterion (AIC) score: 33685150.9123
+Corrected Akaike information criterion (AICc) score: 33685150.9133
+Bayesian information criterion (BIC) score: 33685841.7207
+
+Total tree length (sum of branch lengths): 4.8606
+Sum of internal branch lengths: 2.3608 (48.5708% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+              +-------------------------GCA_017639675.1_Aplochiton_taeniatus
+          +---| (Node4)
+          |   |             +------------------------GCA_046255685.1_Amblyopsis_spelaea
+          |   |          +--| (Node8)
+          |   |          |  |         +--GCA_047511565.1_Polymixia_lowei
+          |   |          |  +---------| (Node9)
+          |   |          |            +--GCA_048537225.1_Polymixia_cf._hollisterae
+          |   |       +--| (Node7)
+          |   |       |  |                     +--GCA_951216825.1_Electrona_antarctica
+          |   |       |  |                +----| (Node11)
+          |   |       |  |                |    +--GCA_964188405.1_Protomyctophum_parallelum
+          |   |       |  +----------------| (Node10)
+          |   |       |                   +-----GCA_963921795.1_Nannobrachium_achirus
+          |   |    +--| (Node6)
+          |   |    |  |                              +---GCA_964030765.1_Micromesistius_poutassou
+          |   |    |  +------------------------------| (Node12)
+          |   |    |                                 +----GCF_902167405.1_Gadus_morhua
+          |   +----| (Node5)
+          |        +-------------------GCA_963971535.1_Notolepis_coatsi
+      +---| (Node3)
+      |   |                       +--GCA_038355195.1_Osmerus_mordax
+      |   |     +-----------------| (Node14)
+      |   |     |                 +--GCF_963692335.1_Osmerus_eperlanus
+      |   +-----| (Node13)
+      |         +--------------GCA_949987555.1_Borostomias_antarcticus
++-----| (Node2)
+|     |         +---GCA_951799395.1_Argentina_silus
+|     +---------| (Node15)
+|               +------GCA_963989245.1_Nansenia_antarctica
+| (Node1)
+|          +--GCA_036784965.1_Salvelinus_alpinus
+|       +--| (Node18)
+|       |  +--GCA_901001165.2_Salmo_trutta
+|   +---| (Node17)
+|   |   +--GCA_964263955.1_Coregonus_lavaretus
++---| (Node16)
+|   +--------------GCF_011004845.1_Esox_lucius
+|
++**__root__
+
+Tree in newick format:
+
+((((GCA_017639675.1_Aplochiton_taeniatus:0.4568693204,((((GCA_046255685.1_Amblyopsis_spelaea:0.4269945577,(GCA_047511565.1_Polymixia_lowei:0.0190915638,GCA_048537225.1_Polymixia_cf._hollisterae:0.0202972957)Node9:0.1745772916)Node8:0.0597004317,((GCA_951216825.1_Electrona_antarctica:0.0299285500,GCA_964188405.1_Protomyctophum_parallelum:0.0400820331)Node11:0.0907021543,GCA_963921795.1_Nannobrachium_achirus:0.1023264469)Node10:0.2915659879)Node7:0.0319602795,(GCA_964030765.1_Micromesistius_poutassou:0.0835337484,GCF_902167405.1_Gadus_morhua:0.0902363166)Node12:0.5367847795)Node6:0.0362465727,GCA_963971535.1_Notolepis_coatsi:0.3444788934)Node5:0.0965176323)Node4:0.0759887659,((GCA_038355195.1_Osmerus_mordax:0.0120354749,GCF_963692335.1_Osmerus_eperlanus:0.0116480954)Node14:0.3125985179,GCA_949987555.1_Borostomias_antarcticus:0.2591957146)Node13:0.1155801688)Node3:0.0691187382,(GCA_951799395.1_Argentina_silus:0.0736109233,GCA_963989245.1_Nansenia_antarctica:0.1330240455)Node15:0.1761932921)Node2:0.1167586170,(((GCA_036784965.1_Salvelinus_alpinus:0.0452240119,GCA_901001165.2_Salmo_trutta:0.0332423132)Node18:0.0355243193,GCA_964263955.1_Coregonus_lavaretus:0.0474025121)Node17:0.0714815347,GCF_011004845.1_Esox_lucius:0.2705474158)Node16:0.0695371417)Node1:0.0000000176;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 19 16:00:25 2026
+Total CPU time used: 136801.4412 seconds (38h:0m:1s)
+Total wall-clock time used: 4722.609614 seconds (1h:18m:42s)
+

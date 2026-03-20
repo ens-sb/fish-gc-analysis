@@ -1,0 +1,136 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: aKRAB_UNK_1_s12.fas
+Type of analysis: tree reconstruction
+Random seed number: 88646
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 16 sequences with 11278506 nucleotide sites
+Number of constant sites: 1.02904e+07 (= 91.239% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1.02904e+07 (= 91.239% of all sites)
+Number of parsimony informative sites: 437559
+Number of distinct site patterns: 542070
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: 12.12+R3
+
+Rate parameter R:
+
+  A-C: 0.8592
+  A-G: 1.6152
+  A-T: 0.4558
+  C-A: 0.8348
+  C-G: 0.8323
+  C-T: 1.5984
+  G-A: 2.0547
+  G-C: 0.7181
+  G-T: 0.3427
+  T-A: 0.6876
+  T-C: 1.5284
+  T-G: 0.4730
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.2937
+  pi(C) = 0.2358
+  pi(G) = 0.2489
+  pi(T) = 0.2216
+
+Rate matrix Q:
+
+  A   -0.9761    0.2862    0.5381    0.1518
+  C    0.2781    -1.088    0.2773    0.5325
+  G    0.6845    0.2392    -1.038    0.1141
+  T     0.229    0.5091    0.1576   -0.8957
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.6001,0.07018) (0.2887,1.342) (0.1113,5.127)
+
+ Category  Relative_rate  Proportion
+  1         0.07018        0.6001
+  2         1.342          0.2887
+  3         5.127          0.1113
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13832366.1537 (s.e. 8556.2814)
+Unconstrained log-likelihood (without tree): -46188965.4738
+Number of free parameters (#branches + #model parameters): 45
+Akaike information criterion (AIC) score: 27664822.3073
+Corrected Akaike information criterion (AICc) score: 27664822.3077
+Bayesian information criterion (BIC) score: 27665463.0358
+
+Total tree length (sum of branch lengths): 0.8926
+Sum of internal branch lengths: 0.3478 (38.9622% of tree length)
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
++----------------------------------GCA_035084275.1_Hydrolagus_colliei
+| (Node1)
+|                                                       +---GCA_963514005.1_Raja_brachyura
+|                                        +--------------| (Node6)
+|                                        |              +----GCF_010909765.2_Amblyraja_radiata
+|                        +---------------| (Node5)
+|                        |               |     +-----GCF_009764475.1_Pristis_pectinata
+|                        |               |  +--| (Node8)
+|                        |               |  |  |         +---GCF_030028105.1_Mobula_birostris
+|                        |               |  |  +---------| (Node9)
+|                        |               |  |            +----GCF_030144855.1_Hypanus_sabinus
+|                        |               +--| (Node7)
+|                        |                  +-----------------GCF_036971445.1_Narcine_bancroftii
+|                     +--| (Node4)
+|                     |  |              +--GCA_964194155.1_Cetorhinus_maximus
+|                     |  |         +----| (Node13)
+|                     |  |         |    +--GCF_017639515.1_Carcharodon_carcharias
+|                     |  |      +--| (Node12)
+|                     |  |      |  |  +--------GCA_964213995.1_Mustelus_asterias
+|                     |  |      |  +--| (Node14)
+|                     |  |      |     +----------GCF_902713615.1_Scyliorhinus_canicula
+|                     |  |   +--| (Node11)
+|                     |  |   |  |         +-------GCF_020745735.1_Hemiscyllium_ocellatum
+|                     |  |   |  +---------| (Node15)
+|                     |  |   |            +-------GCF_030684315.1_Stegostoma_tigrinum
+|                     |  +---| (Node10)
+|                     |      +--------GCF_036365525.1_Heterodontus_francisci
+|                  +--| (Node3)
+|                  |  +------------GCF_044704955.1_Pristiophorus_japonicus
++------------------| (Node2)
+|                  +-------GCF_035084215.1_Heptranchias_perlo
+|
++**__root__
+
+Tree in newick format:
+
+(GCA_035084275.1_Hydrolagus_colliei:0.1266398280,(((((GCA_963514005.1_Raja_brachyura:0.0151250481,GCF_010909765.2_Amblyraja_radiata:0.0176930752)Node6:0.0558761595,((GCF_009764475.1_Pristis_pectinata:0.0221159162,(GCF_030028105.1_Mobula_birostris:0.0145418170,GCF_030144855.1_Hypanus_sabinus:0.0191476460)Node9:0.0368827265)Node8:0.0098760479,GCF_036971445.1_Narcine_bancroftii:0.0643779348)Node7:0.0035566541)Node5:0.0584264249,((((GCA_964194155.1_Cetorhinus_maximus:0.0099450181,GCF_017639515.1_Carcharodon_carcharias:0.0107850788)Node13:0.0210719287,(GCA_964213995.1_Mustelus_asterias:0.0332417965,GCF_902713615.1_Scyliorhinus_canicula:0.0412964751)Node14:0.0101744881)Node12:0.0088408326,(GCF_020745735.1_Hemiscyllium_ocellatum:0.0288089772,GCF_030684315.1_Stegostoma_tigrinum:0.0303889269)Node15:0.0384216258)Node11:0.0108005840,GCF_036365525.1_Heterodontus_francisci:0.0343845280)Node10:0.0142755238)Node4:0.0030052716,GCF_044704955.1_Pristiophorus_japonicus:0.0459798180)Node3:0.0075618551,GCF_035084215.1_Heptranchias_perlo:0.0303609246)Node2:0.0690122622)Node1:0.0000000000;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 19 15:21:40 2026
+Total CPU time used: 61997.8726 seconds (17h:13m:17s)
+Total wall-clock time used: 2375.580518 seconds (0h:39m:35s)
+
